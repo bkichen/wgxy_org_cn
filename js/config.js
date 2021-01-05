@@ -1,0 +1,53 @@
+var P8CONFIG = {
+		url: '',
+		RESOURCE: 'https://www.wgxy.net',
+		language: 'zh-cn',
+		controller: '/index.php',
+		U_controller: '/u.php',
+		cookie_prefix: 'sZH1G333Q22233ssa4as_',
+		cookie_path: '/',
+		base_domain: 'wgxy.net',
+		mobile_status: 1,
+		mobile_auto_jump: 1,
+		mobile_url: '',
+		
+	URI: {
+		'cms': {'': {url: '/cms',controller: '/index.php/cms',U_controller: '/u.php/cms'},
+			'wechat': {url: '/cms/modules/wechat',controller: '/index.php/cms/wechat',U_controller: '/u.php/cms/wechat'},
+			'item': {url: '/cms/modules/item',controller: '/index.php/cms/item',U_controller: '/u.php/cms/item'},
+			'model': {url: '/cms/modules/model',controller: '/index.php/cms/model',U_controller: '/u.php/cms/model'},
+			'statistic': {url: '/cms/modules/statistic',controller: '/index.php/cms/statistic',U_controller: '/u.php/cms/statistic'},
+			'category': {url: '/cms/modules/category',controller: '/index.php/cms/category',U_controller: '/u.php/cms/category'},
+			'assist_category': {url: '/cms/modules/assist_category',controller: '/index.php/cms/assist_category',U_controller: '/u.php/cms/assist_category'}
+		},
+		'sites': {'': {url: '/sites',controller: '/index.php/sites',U_controller: '/u.php/sites'},
+			'item': {url: '/sites/modules/item',controller: '/index.php/sites/item',U_controller: '/u.php/sites/item'},
+			'model': {url: '/sites/modules/model',controller: '/index.php/sites/model',U_controller: '/u.php/sites/model'},
+			'category': {url: '/sites/modules/category',controller: '/index.php/sites/category',U_controller: '/u.php/sites/category'},
+			'stop': {url: '/sites/modules/stop',controller: '/index.php/sites/stop',U_controller: '/u.php/sites/stop'},
+			'farm': {url: '/sites/modules/farm',controller: '/index.php/sites/farm',U_controller: '/u.php/sites/farm'}
+		},
+		core: {'': {url: '',controller: '/index.php'},
+			'pay': {url: '/modules/pay',controller: '/index.php/pay',U_controller: '/u.php/pay'},
+			'dbm': {url: '/modules/dbm',controller: '/index.php/dbm',U_controller: '/u.php/dbm'},
+			'message': {url: '/modules/message',controller: '/index.php/message',U_controller: '/u.php/message'},
+			'crontab': {url: '/modules/crontab',controller: '/index.php/crontab',U_controller: '/u.php/crontab'},
+			'label': {url: '/modules/label',controller: '/index.php/label',U_controller: '/u.php/label'},
+			'xspace': {url: 'http://www.xxx.com',controller: '/index.php/xspace',U_controller: '/u.php/xspace'},
+			'uploader': {url: '/modules/uploader',controller: '/index.php/uploader',U_controller: '/u.php/uploader'},
+			'credit': {url: '/modules/credit',controller: '/index.php/credit',U_controller: '/u.php/credit'},
+			'mail': {url: '/modules/mail',controller: '/index.php/mail',U_controller: '/u.php/mail'},
+			'role': {url: '/modules/role',controller: '/index.php/role',U_controller: '/u.php/role'},
+			'member': {url: '/modules/member',controller: '/index.php/member',U_controller: '/u.php/member'},
+			'friendlink': {url: '/modules/friendlink',controller: '/index.php/friendlink',U_controller: '/u.php/friendlink'},
+			'forms': {url: '/modules/forms',controller: '/index.php/forms',U_controller: '/u.php/forms'},
+			'shortcutsms': {url: '/modules/shortcutsms',controller: '/index.php/shortcutsms',U_controller: '/u.php/shortcutsms'},
+			'special': {url: '/modules/special',controller: '/index.php/special',U_controller: '/u.php/special'},
+			'spider': {url: '/modules/spider',controller: '/index.php/spider',U_controller: '/u.php/spider'},
+			'sms': {url: '/modules/sms',controller: '/index.php/sms',U_controller: '/u.php/sms'},
+			'cservice': {url: '/modules/cservice',controller: '/index.php/cservice',U_controller: '/u.php/cservice'},
+			'46': {url: '/modules/46',controller: '/index.php/46',U_controller: '/u.php/46'},
+			'page': {url: '/modules/page',controller: '/index.php/page',U_controller: '/u.php/page'}
+		}
+	}
+	};

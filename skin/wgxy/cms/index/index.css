@@ -1,0 +1,40 @@
+.slidebanner{margin-bottom:35px;}
+.plane{padding-bottom:35px;}
+.boxfl{width:646px;float:left}
+.boxfr{width:530px;float:right}
+.nbox .hd{height:47px;border-bottom:1px solid #dcdcdc;}
+.nbox .hd .tit{float:left;line-height:47px;color:#292929;}
+.nbox .hd .tit h3{float:left;padding-left:34px;font-size:21px;color:#002248;margin-right:15px;border-bottom:1px solid #112953;}
+.nbox .hd .tit .t1{background: url(ico01.png) left center no-repeat;}
+.nbox .hd .tit .t2{background: url(ico02.png) left center no-repeat;}
+.nbox .hd .tit .t3{background: url(ico03.png) left center no-repeat;}
+.nbox .hd .tit .t4{background: url(ico04.png) left center no-repeat;}
+.nbox .hd .tit .t5{background: url(ico05.png) left center no-repeat;}
+.nbox .hd .more{float:right;margin-top:20px;}
+.nbox .hd .more a{display:block;color:#757575;padding-right:24px;background: url(more.png) right center no-repeat;cursor:pointer;}
+
+.quick li{width:164px;height:35px;line-height:35px;float:left;margin-top:14px;margin-right:19px;text-align:center;}
+.quick li.li1{background:#ecc4e1;}
+.quick li.li2{background:#f6d5b6;}
+.quick li.li3{background:#b2eac4;margin-right:0;}
+.quick li.li4{background:#aa89bd;}
+.quick li.li5{background:#f0a264;}
+.quick li.li6{background:#a0bc94;margin-right:0;}
+.quick li.li7{background:#6341b9;}
+.quick li.li8{background:#be8266;}
+.quick li.li9{background:#428a56;margin-right:0;}
+.quick li a{display:block;font-size:16px;color:#fff;}
+.quick li a:hover{background:#005b9c;}
+
+.links li{width:160px;height:70px;float:left;margin-top:14px;margin-right:24px;}
+.links li.li3{margin-right:0;}
+
+.ntab{position:relative;}
+.ntab .hd{height:47px;line-height:47px;border-bottom:1px solid #dcdcdc;}
+.ntab .hd li{float:left;font-size:21px;color:#002248;margin-right:45px;}
+.ntab .hd li span{display:block;padding-left:40px;}
+.ntab .hd li .t1{background: url(ico06.png) left center no-repeat;}
+.ntab .hd li .t2{background: url(ico07.png) left center no-repeat;}
+.ntab .hd li.on{border-bottom:1px solid #112953;}
+.ntab .more{position:absolute;top:20px;right:0;}
+.ntab .more a{display:block;color:#757575;padding-right:24px;background: url(more.png) right center no-repeat;cursor:pointer;}

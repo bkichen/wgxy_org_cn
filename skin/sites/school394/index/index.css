@@ -1,0 +1,53 @@
+/*首页主体样式*/
+.focus{padding:10px 6px;background-color:#ffffff;}
+
+.nbox{background-color:#ffffff;}
+.nbox .page-header{margin:13px 0 0 0;border-bottom:1px solid #dcdcdc;padding-bottom:0}
+.nbox .title{font-size:18px;color:#ad2323;font-weight:normal;margin:8px 20px;padding-left:20px;background:url(icon_arr.png) left center no-repeat;}
+.nbox .more{padding:12px 15px 0 15px;}
+.nbox .more a{color:#ad2323;font-size:14px;}
+
+.nbox .page-list{padding:0 10px;}
+.nbox .nlist{padding:10px 10px 10px 15px;}
+.nbox .nlist2{padding:10px 0;}
+.headline{background-color:#f7f7f7;}
+
+.quick{background-color:#fff;margin:13px 0 0 0;}
+.quick li{width:20%;position: relative;min-height:1px;margin:10px 0;padding-right: 10px;padding-left: 10px;float:left;}
+.quick li a{display:block;line-height:44px;font-size:14px;color:#fff;}
+.quick li a.q-icon1{background:#0099cc;}
+.quick li a.q-icon2{background:#003e6d;}
+.quick li a.q-icon3{background:#bf3b48;}
+.quick li a.q-icon4{background:#009966;}
+.quick li a.q-icon5{background:#008b99;}
+.quick li a .qicon{height: 44px;width: 44px;display: inline-block;vertical-align: middle;margin-left:30px;margin-right:10px;background-size: contain;background-repeat: no-repeat;background-position: 50% 50%;}
+.quick li a.q-icon1 .qicon{background-image: url(qicon1.png);}
+.quick li a.q-icon2 .qicon{background-image: url(qicon2.png);}
+.quick li a.q-icon3 .qicon{background-image: url(qicon3.png);}
+.quick li a.q-icon4 .qicon{background-image: url(qicon4.png);}
+.quick li a.q-icon5 .qicon{background-image: url(qicon5.png);}
+.quick li a:hover .qicon{
+  transform: rotateY(360deg);
+  transition: .5s all;
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all;
+ }
+
+.friendlink{border:1px solid #90bcbe;background-color:#cde7e9;margin-top:12px;padding:5px 0;}
+.friendlink h3{margin-top:15px;font-size:16px;color:#000;text-align: center;}
+.friendlink li {float: left;color: #404040;line-height: 14px;text-align: center;font-size: 14px;border-left: 1px solid #404040;margin: 16px 0;padding: 0 16px;}
+.friendlink .one{border:0;}
+
+@media (max-width: 990px) and (min-width: 768px){
+	.quick li{width:50%;}
+}
+@media (max-width: 767px) {
+	.nbox .nlist{padding:10px 5px;}
+	.friendlink .select{width:40%;}
+}
+@media (max-width:480px) {
+	.quick li{width:100%;}
+	.friendlink .select{width:100%;margin-left:0}
+}

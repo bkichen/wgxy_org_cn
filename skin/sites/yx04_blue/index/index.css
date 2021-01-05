@@ -1,0 +1,31 @@
+/*棣栭〉涓讳綋鏍峰紡*/
+#myCarousel{margin-bottom: 18px;margin: 0 auto;display: table;}
+.graybg{background-color:#f5f5f5;}
+.s-bd{padding:26px 0;}
+.box2 .m-bd{padding-top: 10px;}
+.box .page-header{margin:0;border-bottom: 1px solid #0d518b;padding:0 5px ;}
+.box .h4{margin:0;color:#0d518b;padding: 12px 0 11px 25px;font-size: 16px;}
+.box .h4 span {color:#909090;font-size:12px;padding-left:10px;font-weight:400;}
+.more{margin-top: 15px;}
+.more a{font-size:11px;color:#0d518b;}
+.box4{padding-top: 15px;}
+.box4 .m-bd{padding: 10px;}
+.box4 .m-bd li{margin:15px 0;background:url(flink.png) left center no-repeat;padding-left: 35px;}
+
+.nlist li{margin-bottom:15px ;float:left;}
+.nlist a{display: block;padding: 60px 0 15px;border:1px solid #106470;text-align: center;color:#0d518b ;}
+.li1 a{background:url(list1.png) center 25px no-repeat;}
+.li2 a{background:url(list2.png) center 25px no-repeat;}
+.li3 a{background:url(list3.png) center 25px no-repeat;}
+.li4 a{background:url(list4.png) center 25px no-repeat;}
+.li5 a{background:url(list5.png) center 25px no-repeat;}
+.li6 a{background:url(list6.png) center 25px no-repeat;}
+.li7 a{background:url(list7.png) center 25px no-repeat;}
+.li8 a{background:url(list8.png) center 25px no-repeat;}
+.li9 a{background:url(list9.png) center 25px no-repeat;}
+
+.box1 h4{background: url(icon1.png) left center no-repeat;}
+.box2 h4{background: url(icon2.png) left center no-repeat;}
+.box3 h4{background: url(icon3.png) left center no-repeat;}
+.box4 h4{background: url(icon4.png) left center no-repeat;}
+

@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=2.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="renderer" content="webkit">
+<meta name="keywords" content="">
+<meta name="description" content="武汉工程职业技术学院团委网站">
+<title>武汉工程职业技术学院团委——青路网</title>
+<link href="skin/sites/common/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+<link href="skin/sites/school415/core/header/common.css" type="text/css" rel="stylesheet">
+<link href="skin/sites/school415/core/header/header.css" type="text/css" rel="stylesheet">
+<link href="skin/label/label.css" type="text/css" rel="stylesheet">
+<link href="skin/label/swiper-3.3.1.min.css" type="text/css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+<script src="https://www.wgxy.org.cn/skin/sites/common/js/ie8-responsive-file-warning.js"></script>
+<script src="https://www.wgxy.org.cn/skin/sites/common/js/html5shiv.min.js"></script>
+<script src="https://www.wgxy.org.cn/skin/sites/common/js/respond.min.js"></script>
+<script type="text/javascript">
+(function(){var ajax,xmlHttp;var links=document.getElementsByTagName("link");baseElem=document.getElementsByTagName("base")[0];ajax=function(url,callback){var req=xmlHttp();if(!req){return;}
+req.open("GET",url,true);req.onreadystatechange=function(){if(req.readyState!=4||req.status!=200&&req.status!=304){return;}
+callback(req.responseText);};if(req.readyState==4){return;}
+req.send();};xmlHttp=(function(){var xmlhttpmethod=false,attempts=[function(){return new XMLHttpRequest();},function(){return new ActiveXObject("Microsoft.XMLHTTP");},function(){return new ActiveXObject("MSXML2.XMLHTTP.3.0");}],al=attempts.length;while(al--){try{xmlhttpmethod=attempts[al]();}
+catch(e){continue;}
+break;}
+return function(){return xmlhttpmethod;};})();for(var i=0,linkl=links.length;i<linkl;i++){var thislink=links[i],href=links[i].href,extreg=(/^([a-zA-Z:]*\/\/(www\.)?)/).test(href),ext=(baseElem&&!extreg)||extreg;if(thislink.rel.indexOf("stylesheet")>=0&&ext&&thislink.href.indexOf("bootstrap")>=0){ajax('/bootstrap.min.css',function(css){thislink.styleSheet.rawCssText=css;respond.update();});break;}}}());
+</script>
+<![endif]-->
+<script src="skin/sites/common/js/jquery.min.js" type="text/javascript"></script>
+<script src="skin/sites/common/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/util.js"></script>
+<script type="text/javascript" src="js/swiper-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/koala.min.1.5.js"></script>
+<script type="text/javascript" src="js/jquery.iosslider.js"></script>
+<script type="text/javascript" src="js/jquery.easing-1.3.js"></script>
+<script type="text/javascript" src="js/lang/core/zh-cn.js"></script>
+<script type="text/javascript" src="js/lang/sites/zh-cn.js"></script>
+<script type="text/javascript">
+P8CONFIG.RESOURCE = 'https://www.wgxy.org.cn';
+var SYSTEM = 'sites',
+MODULE = '',
+ACTION = 'main',
+LABEL_URL = '/s.php/qingluweb/?site=qingluweb',
+$this_router = P8CONFIG.URI[SYSTEM][MODULE].controller,
+$this_url = $this_router +'-'+ ACTION,
+SKIN = 'https://www.wgxy.org.cn/skin/sites/school415/',
+TEMPLATE = 'school415';
+mobile_status= '1',
+mobile_auto_jump='1',
+mobile_url = '';
+if(mobile_status=='1' && SYSTEM!='sites'){
+if(browser.versions.android || browser.versions.iPhone || browser.versions.iPad){
+if(mobile_auto_jump=='1' && mobile_url!=P8CONFIG.RESOURCE){
+var this_url = location.href,_pul=P8CONFIG.RESOURCE;
+if(this_url.indexOf(mobile_url)==-1 && this_url.indexOf('s.php')==-1 && this_url.indexOf('u.php')==-1 && this_url.indexOf('admin.php')==-1 && SYSTEM!='sites'){
+if(this_url.indexOf(P8CONFIG.RESOURCE+'/html')!=-1)_pul+='/html';
+this_url = this_url.replace(_pul, mobile_url);
+location.href = this_url;
+}
+}
+}
+}document.domain = 'wgxy.org.cn';document.base_domain = 'wgxy.org.cn';
+</script>
+<script type="text/javascript">
+function nTabs(thisObj,Num){
+if(thisObj.className == "active")return;
+var tabObj = thisObj.parentNode.id;
+var tabList = document.getElementById(tabObj).getElementsByTagName("li");
+for(i=0; i <tabList.length; i++)
+{
+if (i == Num)
+{
+thisObj.className = "active"; 
+document.getElementById(tabObj+"_Content"+i).style.display = "block";
+}else{
+tabList[i].className = "normal"; 
+document.getElementById(tabObj+"_Content"+i).style.display = "none";
+}
+} 
+}
+</script>
+</head>
+<body>
+<header class="header">
+<div class="container">
+<div class="row">
+<div class="col-md-5 col-md-push-7">
+<div class="hlink clearfix">
+<div class="pull-right" id="header_t"><span>欢迎访问本网站！</span><span><a href="javascript:;" class="search">搜索</a></span><span><a href="index.html" class="homepage">学校主页</a></span></div>
+</div>				
+</div>
+<div class="col-md-7 col-md-pull-5">
+<div class="logo"><a href=""><img src="attachment/sites/farm/2019_03/22_10/37ac3a545dea46c7.png"></a></div>
+</div>
+</div>
+</div>
+</header>
+<nav class="navbar navbar-main navbar-static-top" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+<li>
+<div class="dropdown menu1">  
+<a href="" target="">首页</a>					
+</div> 
+</li>
+<li>
+<div class="dropdown menu2">  
+<a href="javascript:;" target="">团委概况</a>					
+</div> 
+</li>
+<li>
+<div class="dropdown menu3">  
+<a href="javascript:;" target="">网上团校</a>					
+</div> 
+</li>
+<li>
+<div class="dropdown menu4">  
+<a href="javascript:;" target="">学生团体</a>
+<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+<li><a href="javascript:;" target="">学生会</a></li>
+<li><a href="javascript:;" target="">社团联合会</a></li>
+<li><a href="javascript:;" target="">青年媒体中心</a></li>
+<li><a href="javascript:;" target="">青年志愿者协会</a></li>
+<li><a href="javascript:;" target="">奕翎艺术团</a></li>
+</ul>					
+</div> 
+</li>
+<li>
+<div class="dropdown menu5">  
+<a href="javascript:;" target="">专题工作</a>
+<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+<li><a href="javascript:;" target="">志愿实践</a></li>
+<li><a href="javascript:;" target="">缤纷社团</a></li>
+<li><a href="javascript:;" target="">校园文化</a></li>
+</ul>					
+</div> 
+</li>
+<li>
+<div class="dropdown menu6">  
+<a href="javascript:;" target="">信息平台</a>
+<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+<li><a href="javascript:;" target="">团内通知</a></li>
+<li><a href="javascript:;" target="">活动预告</a></li>
+<li><a href="javascript:;" target="">资料下载</a></li>
+</ul>					
+</div> 
+</li>
+<li>
+<div class="dropdown menu7">  
+<a href="javascript:;" target="_blank">团史展馆</a>					
+</div> 
+</li>
+<li>
+<div class="dropdown menu8">  
+<a href="javascript:;" target="_blank">思想引领</a>					
+</div> 
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<script type="text/javascript">
+$(document).ready(function(){
+//**show_edit**//					   
+init_labelshows('header_t');
+//**menu**//
+$('#menu_nav li>dl').hide();
+$('#menu_nav li:first').addClass('over');
+$('#menu_nav li').each(function () {
+$(this).hover(
+function(){
+$('#menu_nav li').removeClass();
+$('#menu_nav li>dl').hide();
+$(this).addClass('over');
+$(this).find('dl').show();
+},
+function(){
+$(this).find('dl').hide();
+}
+)
+});
+})
+</script>
+<div class="content"><link rel="stylesheet" type="text/css" href="skin/sites/school415/index/index.css">
+<div id="myCarousel" class="carousel slide">
+
+<div id="carousel-example-generic41041" class="full-width carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#carousel-example-generic41041" data-slide-to="0" class="pagination"></li>
+<li data-target="#carousel-example-generic41041" data-slide-to="1" class="pagination"></li>
+<li data-target="#carousel-example-generic41041" data-slide-to="2" class="pagination"></li>
+<li data-target="#carousel-example-generic41041" data-slide-to="3" class="pagination"></li>
+</ol>
+<!-- Wrapper for slides -->
+<div class="carousel-inner" role="listbox">
+<div class="item"><a href=""><img src="attachment/core/label/2020_12/29_13/00bd185a58155f5a.jpg" width="100%" height="485" alt="" class="img-responsive"></a></div>
+<div class="item"><a href=""><img src="attachment/core/label/2019_09/17_10/2f1c0b7fa3443e9a.jpg" width="100%" height="485" alt="" class="img-responsive"></a></div>
+<div class="item"><a href=""><img src="attachment/core/label/2019_09/17_10/acc114dd83ca7ea2.jpg" width="100%" height="485" alt="" class="img-responsive"></a></div>
+<div class="item"><a href=""><img src="attachment/core/label/2020_12/29_13/b0809d719dabe17c.jpg" width="100%" height="485" alt="" class="img-responsive"></a></div>
+</div>
+<!-- Controls -->
+<a class="left carousel-control" href="javascript:;" role="button" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="javascript:;" role="button" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+<script type="text/javascript">
+(function () {
+$("#carousel-example-generic41041 .carousel-inner .item:first,#carousel-example-generic41041 .carousel-indicators .pagination:first").addClass("active");
+})()
+</script>
+</div>
+<div class="section gray">
+<div class="container">
+
+<div class="row">
+<div class="col-md-8 col-sm-8 col-xs-12">
+<div class="section-title">
+<span class="section-title2 fl">团学动态</span>
+<span class="more fr"><a href="javascript:;" target="_blank">更多>></a></span>
+<span class="clearfix"></span>
+</div>
+<div class="row">
+<div class="col-md-6 col-sm-6 col-xs-12">
+<div class="news-slide">
+
+<!--carousel begin-->
+<style type="text/css">
+#portfolio-carousel-generic41034 .carousel-caption{left: 0; right: 0; background: url(skin/label/bgcolor.png);bottom:0;padding: 10px; line-height: 30px; font-size:18px; text-align: left;white-space: nowrap; text-overflow: ellipsis;overflow: hidden;}
+#portfolio-carousel-generic41034 .carousel-caption h5{font-size: 14px;font-weight: normal;margin: 0;width: 70%;overflow: hidden;text-overflow: ellipsis;text-overflow: ellipsis;-ms-text-overflow: ellipsis;-o-text-overflow: ellipsis;white-space: nowrap;display: block;}
+#portfolio-carousel-generic41034 .carousel-indicators{right:0 ;left: unset;width: auto; margin:7px;bottom:0;}
+#portfolio-carousel-generic41034 .carousel-indicators li{background-color: #fff;}
+#portfolio-carousel-generic41034 .carousel-inner img{width:100%;height:306px;}
+#portfolio-carousel-generic41034 .carousel-indicators .active{background-color: #ef8802; width: 10px; height: 10px; border-color: #ef8802; margin:1px;}
+@media (max-width: 767px){
+#portfolio-carousel-generic41034 .carousel-inner img{width:100%;height:auto;}
+}
+</style>
+<div id="portfolio-carousel-generic41034" class="full-width carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#portfolio-carousel-generic41034" data-slide-to="0" class="pagination"></li>
+<li data-target="#portfolio-carousel-generic41034" data-slide-to="1" class="pagination"></li>
+<li data-target="#portfolio-carousel-generic41034" data-slide-to="2" class="pagination"></li>
+<li data-target="#portfolio-carousel-generic41034" data-slide-to="3" class="pagination"></li>
+</ol>
+<!-- Wrapper for slides -->
+<div class="carousel-inner" role="listbox">
+<div class="item">
+<a href="2020_12/23_10/content-21897.html">
+<img src="attachment/sites/item/2020_12/23_09/e42fea77b15a8737.jpg" alt="" class="img-responsive">
+<div class="carousel-caption"><h5>我院第一次团代会胜利召开</h5></div>
+</a>
+</div>
+<div class="item">
+<a href="2020_11/17_00/content-21823.html">
+<img src="attachment/sites/item/2020_11/19_10/24e2e7e453511a45.jpg" alt="" class="img-responsive">
+<div class="carousel-caption"><h5>素质大讲堂——2019级团总支学生会骨干成员、2020级全体寝室长培</h5></div>
+</a>
+</div>
+<div class="item">
+<a href="2020_11/12_00/content-21808.html">
+<img src="attachment/sites/item/2020_11/12_10/abe979134c1e2af9.JPG" alt="" class="img-responsive">
+<div class="carousel-caption"><h5> “情满校园 温暖心间” 师生一同包饺子</h5></div>
+</a>
+</div>
+<div class="item">
+<a href="2020_10/23_09/content-21753.html">
+<img src="attachment/sites/item/2020_11/02_18/e4f03b601284c1a1.jpg" alt="" class="img-responsive">
+<div class="carousel-caption"><h5>我校举行2020级新生军训会操暨开学典礼</h5></div>
+</a>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+(function () {
+$("#portfolio-carousel-generic41034 .carousel-inner .item:first,#portfolio-carousel-generic41034 .carousel-indicators .pagination:first").addClass("active");
+})()
+</script>
+</div>
+</div>
+<div class="col-md-6 col-sm-6 col-xs-12">
+<div class="news-list">
+<ul class="adaplist44 label_nowrap" style="font-size:14px;color:#454545;">
+<li>
+<a href="2020_12/23_10/content-21897.html" target="_blank" title="我院第一次团代会胜利召开"><span>我院第一次团代会胜利召开</span><span class="label_datatime" style="font-size:14px;color:#bababa;">12-23</span></a>
+</li>
+<li>
+<a href="2020_11/17_00/content-21823.html" target="_blank" title="素质大讲堂——2019级团总支学生会骨干成员、2020级全体寝室长培训"><span>素质大讲堂——2019级团总支学生会骨干成员</span><span class="label_datatime" style="font-size:14px;color:#bababa;">11-17</span></a>
+</li>
+<li>
+<a href="2020_11/12_00/content-21808.html" target="_blank" title=" “情满校园 温暖心间” 师生一同包饺子"><span> “情满校园 温暖心间” 师生一同包饺子</span><span class="label_datatime" style="font-size:14px;color:#bababa;">11-12</span></a>
+</li>
+<li>
+<a href="2020_10/23_09/content-21753.html" target="_blank" title="我校举行2020级新生军训会操暨开学典礼"><span>我校举行2020级新生军训会操暨开学典礼</span><span class="label_datatime" style="font-size:14px;color:#bababa;">10-23</span></a>
+</li>
+<li>
+<a href="2020_10/01_00/content-21748.html" target="_blank" title="国庆遇见中秋，今年我们“玩”着过 "><span>国庆遇见中秋，今年我们“玩”着过 </span><span class="label_datatime" style="font-size:14px;color:#bababa;">10-01</span></a>
+</li>
+<li>
+<a href="2020_09/28_00/content-21747.html" target="_blank" title="机电工程学院组织举办拔河比赛 "><span>机电工程学院组织举办拔河比赛 </span><span class="label_datatime" style="font-size:14px;color:#bababa;">09-28</span></a>
+</li>
+<li>
+<a href="2020_09/26_00/content-21746.html" target="_blank" title="直击！校学生会换届体验式选拔现场 "><span>直击！校学生会换届体验式选拔现场 </span><span class="label_datatime" style="font-size:14px;color:#bababa;">09-26</span></a>
+</li>
+<li>
+<a href="2020_09/18_00/content-21745.html" target="_blank" title="经济贸易学院组织举办“防疫时时刻刻，关注角角落落”活动"><span>经济贸易学院组织举办“防疫时时刻刻，关注</span><span class="label_datatime" style="font-size:14px;color:#bababa;">09-18</span></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="section-title">
+<span class="section-title2 fl">团内通知</span>
+<span class="more fr"><a href="javascript:;" target="_blank">更多>></a></span>
+<span class="clearfix"></span>
+</div>
+<div class="news-list">
+<style type="text/css">
+.list_adap_date19 li{margin-top:30px;}
+.list_adap_date19 .time{width:58px;height:55px;float:left;text-align:center;margin-right:15px;}
+.list_adap_date19 .time span{display:block;text-align:center;font-size:18px;}
+.list_adap_date19 .time .date{color:#fff;background:#a40000;line-height:30px;}
+.list_adap_date19 .time .year{color:#a40000;background:#eeeeee;font-size:12px;line-height:25px;}
+.list_adap_date19 .info h4{font-size:14px;font-weight:normal;margin:0;line-height:25px;}
+.list_adap_date19 .info h4 a{font-size:15px;}
+</style>
+<ul class="list_adap_date19">	
+<li>
+<div class="media">
+<div class="time">
+<span class="date">10</span>
+<span class="year">2020-12</span>
+</div>
+<div class="media-body info">
+<h4><a href="2020_12/10_00/content-21872.html" target="_blank">武汉工程职业技术学院学生会组织改革公示</a></h4>
+</div>
+</div>
+</li>	
+<li>
+<div class="media">
+<div class="time">
+<span class="date">09</span>
+<span class="year">2020-11</span>
+</div>
+<div class="media-body info">
+<h4><a href="2020_11/09_15/content-21803.html" target="_blank">关于举办2020年创意国韵汉服展示大赛的通知</a></h4>
+</div>
+</div>
+</li>	
+<li>
+<div class="media">
+<div class="time">
+<span class="date">27</span>
+<span class="year">2020-10</span>
+</div>
+<div class="media-body info">
+<h4><a href="2020_10/27_22/content-21838.html" target="_blank">学校团委动员广大团员青年和学生组织代表学习《中华全国学生联合</a></h4>
+</div>
+</div>
+</li>
+<li style="padding-bottom:0;">
+<div class="media">
+<div class="time">
+<span class="date">09</span>
+<span class="year">2020-10</span>
+</div>
+<div class="media-body info">
+<h4><a href="2020_10/09_14/content-21652.html" target="_blank">校学生会部门设置框架图</a></h4>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="section white">
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-sm-6 col-xs-12">
+<div class="section-title">
+<span class="section-title2 fl">专题工作</span>
+<span class="more fr"><a href="javascript:;" target="_blank">更多>></a></span>
+<span class="clearfix"></span>
+</div>
+<div class="news-list">
+<ul class="adaplist45 label_nowrap" style="font-size:14px;color:#808080;">
+<li>
+<div class="media">
+<div class="pull-left">
+<span class="category">志愿实践</span>
+</div>
+<div class="media-body">
+<span class="label_datatime" style="font-size:14px;">2019-03-04</span><a href="2019_03/04_15/content-14042.html" target="_blank" title="红色三月情，雷锋在我心——学习雷锋系列活动（一）"><span>红色三月情，雷锋在我心——学习雷锋系列活动（一）</span></a>
+</div>
+</div>
+</li>
+<li>
+<div class="media">
+<div class="pull-left">
+<span class="category">缤纷社团</span>
+</div>
+<div class="media-body">
+<span class="label_datatime" style="font-size:14px;">2018-09-19</span><a href="2018_09/19_10/content-14053.html" target="_blank" title="我校2018年学生社团纳新工作顺利开展"><span>我校2018年学生社团纳新工作顺利开展</span></a>
+</div>
+</div>
+</li>
+<li>
+<div class="media">
+<div class="pull-left">
+<span class="category">志愿实践</span>
+</div>
+<div class="media-body">
+<span class="label_datatime" style="font-size:14px;">2018-09-12</span><a href="2018_09/12_15/content-14043.html" target="_blank" title="助力通山，支教之行"><span>助力通山，支教之行</span></a>
+</div>
+</div>
+</li>
+<li>
+<div class="media">
+<div class="pull-left">
+<span class="category">志愿实践</span>
+</div>
+<div class="media-body">
+<span class="label_datatime" style="font-size:14px;">2018-04-28</span><a href="2018_04/28_11/content-14044.html" target="_blank" title="关于西部计划新疆专项志愿者招募的通知"><span>关于西部计划新疆专项志愿者招募的通知</span></a>
+</div>
+</div>
+</li>
+<li>
+<div class="media">
+<div class="pull-left">
+<span class="category">志愿实践</span>
+</div>
+<div class="media-body">
+<span class="label_datatime" style="font-size:14px;">2018-04-17</span><a href="2018_04/17_10/content-14045.html" target="_blank" title="我校云南籍大学生唐清特登武汉晨报头条"><span>我校云南籍大学生唐清特登武汉晨报头条</span></a>
+</div>
+</div>
+</li>
+<li>
+<div class="media">
+<div class="pull-left">
+<span class="category">志愿实践</span>
+</div>
+<div class="media-body">
+<span class="label_datatime" style="font-size:14px;">2018-04-10</span><a href="2018_04/10_15/content-14046.html" target="_blank" title="“爱卫生、防疾病、扫隐患”校园清理第二站开始啦"><span>“爱卫生、防疾病、扫隐患”校园清理第二站开始啦</span></a>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="col-md-6 col-sm-6 col-xs-12">
+<div class="section-title">
+<span class="section-title2 fl">信息平台</span>
+<span class="more fr"><a href="javascript:;" target="_blank">更多>></a></span>
+<span class="clearfix"></span>
+</div>
+<div class="news-list">
+<ul class="adaplist45 label_nowrap" style="font-size:14px;color:#808080;">
+<li>
+<div class="media">
+<div class="pull-left">
+<span class="category">资料下载</span>
+</div>
+<div class="media-body">
+<span class="label_datatime" style="font-size:14px;">2019-03-22</span><a href="2019_03/22_17/content-14063.html" target="_blank" title="资料下载"><span>资料下载</span></a>
+</div>
+</div>
+</li>
+<li>
+<div class="media">
+<div class="pull-left">
+<span class="category">活动预告</span>
+</div>
+<div class="media-body">
+<span class="label_datatime" style="font-size:14px;">2018-12-03</span><a href="2018_12/03_11/content-14058.html" target="_blank" title="“女生健康自由行”专题讲座"><span>“女生健康自由行”专题讲座</span></a>
+</div>
+</div>
+</li>
+<li>
+<div class="media">
+<div class="pull-left">
+<span class="category">活动预告</span>
+</div>
+<div class="media-body">
+<span class="label_datatime" style="font-size:14px;">2018-09-12</span><a href="2018_09/12_15/content-14059.html" target="_blank" title="2018年社团纳新"><span>2018年社团纳新</span></a>
+</div>
+</div>
+</li>
+<li>
+<div class="media">
+<div class="pull-left">
+<span class="category">活动预告</span>
+</div>
+<div class="media-body">
+<span class="label_datatime" style="font-size:14px;">2018-04-10</span><a href="2018_04/10_11/content-14060.html" target="_blank" title="缤纷社团展示周"><span>缤纷社团展示周</span></a>
+</div>
+</div>
+</li>
+<li>
+<div class="media">
+<div class="pull-left">
+<span class="category">活动预告</span>
+</div>
+<div class="media-body">
+<span class="label_datatime" style="font-size:14px;">2018-01-18</span><a href="2018_01/18_15/content-14061.html" target="_blank" title="社团活动月"><span>社团活动月</span></a>
+</div>
+</div>
+</li>
+<li>
+<div class="media">
+<div class="pull-left">
+<span class="category">活动预告</span>
+</div>
+<div class="media-body">
+<span class="label_datatime" style="font-size:14px;">2018-01-18</span><a href="2018_01/18_14/content-14062.html" target="_blank" title="&quot;歌舞载青春，梦想筑芳华“2018年迎春晚会"><span>&quot;歌舞载青春，梦想筑芳华“2018年迎春晚会</span></a>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="section gray">
+<div class="container">
+<div class="section-title">
+<span class="section-title2 fl">青春风采</span>
+<span class="more fr"> <a href="javascript:;" target="_blank">更多>></a></span>
+<span class="clearfix"></span>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="picshow">
+<div class="layer" style="height:180px;max-width:1200px;overflow:hidden" id="pingpaibox_41028">
+<div id="scroll_41028" style="width:800%">
+<ul class="label_pic_ul" id="pingpai_41028" style="float:left;height:180px;">
+<li style="float:left;display:inline-block; margin:0 10px 0 0;">
+<a href="2018_09/19_08/content-14084.html" target="_blank" title="教官学生同上大学第一课"><img width="230" height="150" alt="教官学生同上大学第一课" src="xxtupic/image/20180919/20180919083414_3220.jpg"></a>
+<p class="label_pic_title2 center" style="width:230px;"><a href="2018_09/19_08/content-14084.html" target="_blank" title="教官学生同上大学第一课">教官学生同上大学第一课</a></p>
+</li>
+<li style="float:left;display:inline-block; margin:0 10px 0 0;">
+<a href="2018_01/18_15/content-14085.html" target="_blank" title="【优秀毕业生】2009届 郭庆淦"><img width="230" height="150" alt="【优秀毕业生】2009届 郭庆淦" src="images/news/2015070436675813.jpg"></a>
+<p class="label_pic_title2 center" style="width:230px;"><a href="2018_01/18_15/content-14085.html" target="_blank" title="【优秀毕业生】2009届 郭庆淦">【优秀毕业生】2009届 郭庆淦</a></p>
+</li>
+<li style="float:left;display:inline-block; margin:0 10px 0 0;">
+<a href="2018_01/18_15/content-14086.html" target="_blank" title="【优秀毕业生】2010届刘学姣"><img width="230" height="150" alt="【优秀毕业生】2010届刘学姣" src="images/news/2015070436461985.jpg"></a>
+<p class="label_pic_title2 center" style="width:230px;"><a href="2018_01/18_15/content-14086.html" target="_blank" title="【优秀毕业生】2010届刘学姣">【优秀毕业生】2010届刘学姣</a></p>
+</li>
+<li style="float:left;display:inline-block; margin:0 10px 0 0;">
+<a href="2018_01/18_15/content-14087.html" target="_blank" title="【优秀毕业生】曹亮"><img width="230" height="150" alt="【优秀毕业生】曹亮" src="images/news/2015070436209533.jpg"></a>
+<p class="label_pic_title2 center" style="width:230px;"><a href="2018_01/18_15/content-14087.html" target="_blank" title="【优秀毕业生】曹亮">【优秀毕业生】曹亮</a></p>
+</li>
+<li style="float:left;display:inline-block; margin:0 10px 0 0;">
+<a href="2018_01/18_15/content-14088.html" target="_blank" title="【优秀毕业生】2006届方奇娟"><img width="230" height="150" alt="【优秀毕业生】2006届方奇娟" src="images/news/2015070436057329.jpg"></a>
+<p class="label_pic_title2 center" style="width:230px;"><a href="2018_01/18_15/content-14088.html" target="_blank" title="【优秀毕业生】2006届方奇娟">【优秀毕业生】2006届方奇娟</a></p>
+</li>
+<li style="float:left;display:inline-block; margin:0 10px 0 0;">
+<a href="2018_01/18_15/content-14089.html" target="_blank" title="【优秀毕业生】2012届肖军"><img width="230" height="150" alt="【优秀毕业生】2012届肖军" src="images/news/2015070436894909.jpg"></a>
+<p class="label_pic_title2 center" style="width:230px;"><a href="2018_01/18_15/content-14089.html" target="_blank" title="【优秀毕业生】2012届肖军">【优秀毕业生】2012届肖军</a></p>
+</li>
+<li style="float:left;display:inline-block; margin:0 10px 0 0;">
+<a href="2018_01/18_15/content-14090.html" target="_blank" title="【十大学子之星】安全环保之星 汽车学院 周明果"><img width="230" height="150" alt="【十大学子之星】安全环保之星 汽车学院 周明果" src="images/news/2015070355498813.png"></a>
+<p class="label_pic_title2 center" style="width:230px;"><a href="2018_01/18_15/content-14090.html" target="_blank" title="【十大学子之星】安全环保之星 汽车学院 周明果">【十大学子之星】安全环保之星 </a></p>
+</li>
+<li style="float:left;display:inline-block; margin:0 10px 0 0;">
+<a href="2018_01/18_15/content-14091.html" target="_blank" title="【优秀毕业生】2008届赵海立"><img width="230" height="150" alt="【优秀毕业生】2008届赵海立" src="images/news/2015070435795173.jpg"></a>
+<p class="label_pic_title2 center" style="width:230px;"><a href="2018_01/18_15/content-14091.html" target="_blank" title="【优秀毕业生】2008届赵海立">【优秀毕业生】2008届赵海立</a></p>
+</li>
+<li style="float:left;display:inline-block; margin:0 10px 0 0;">
+<a href="2018_01/18_15/content-14092.html" target="_blank" title="【优秀毕业生】2009届陈霄"><img width="230" height="150" alt="【优秀毕业生】2009届陈霄" src="images/news/2015070435258249.jpg"></a>
+<p class="label_pic_title2 center" style="width:230px;"><a href="2018_01/18_15/content-14092.html" target="_blank" title="【优秀毕业生】2009届陈霄">【优秀毕业生】2009届陈霄</a></p>
+</li>
+<li style="float:left;display:inline-block; margin:0 10px 0 0;">
+<a href="2018_01/18_15/content-14093.html" target="_blank" title="【优秀毕业生】齐越"><img width="230" height="150" alt="【优秀毕业生】齐越" src="images/news/2015070435131453.jpg"></a>
+<p class="label_pic_title2 center" style="width:230px;"><a href="2018_01/18_15/content-14093.html" target="_blank" title="【优秀毕业生】齐越">【优秀毕业生】齐越</a></p>
+</li>
+</ul>
+<ul class="fleft" id="pingpaicopy_41028" style="float:left;height:180px;"></ul>
+</div>
+<script type="text/javascript">
+(function(){
+$('#pingpaicopy_41028').html($('#pingpai_41028').html());
+var MyMar=setInterval(Marquee,20); 
+$('#scroll_41028').hover( function(){ clearInterval(MyMar) }, function(){ MyMar=setInterval(Marquee,20) } );
+function Marquee(){var tab=$('#pingpaibox_41028')[0], tab1=$('#pingpai_41028')[0],tab2=$('#pingpaicopy_41028')[0];
+if(tab2.offsetWidth-tab.scrollLeft<=0)tab.scrollLeft-= tab1.offsetWidth;else{tab.scrollLeft++;}
+$('#tab').html(tab.scrollLeft);
+$('#tab1').html(tab1.offsetWidth);
+$('#tab2').html(tab2.offsetWidth);
+}
+})()
+</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+<div class="footpic">
+<div class="container">
+<div class="row">
+<div class="col-md-3 col-sm-3 col-xs-12">
+<div class="pic"><a href="javascript:;" target="_blank" title="" style="text-decoration:none;"><img width="110" height="130" border="none" alt="" src="attachment/core/label/2019_03/25_11/05c780e9ae8fcd17.jpg"></a></div>
+</div>
+<div class="col-md-3 col-sm-3 col-xs-12">
+<div class="pic"><a href="javascript:;" target="_blank" title="" style="text-decoration:none;"><img width="110" height="130" border="none" alt="" src="attachment/core/label/2019_03/25_11/1065052f3e43b1f1.jpg"></a></div>
+</div>
+<div class="col-md-3 col-sm-3 col-xs-12">
+<div class="pic"><a href="javascript:;" target="_blank" title="" style="text-decoration:none;"><img width="110" height="130" border="none" alt="" src="attachment/core/label/2019_03/25_11/6b5510c543de3bfc.jpg"></a></div>
+</div>
+<div class="col-md-3 col-sm-3 col-xs-12">
+<div class="pic"><a href="javascript:;" target="_blank" title="" style="text-decoration:none;"><img width="110" height="130" border="none" alt="" src="attachment/core/label/2019_03/25_11/eb0c1806847318a9.jpg"></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="container">
+<div class="copyright text-center">
+<p>版权所有 © 武汉工程职业技术学院   备案序号：鄂ICP备13001359号    技术维护：图文信息中心      <a href="javascript:;" target="_blank"><img src="skin/sites/school415/core/header/images/gabeian.png">  鄂公网安备 42010702000258 号</a>
+</p>
+</div>
+</div>
+</div>
+
+</body>
+</html>

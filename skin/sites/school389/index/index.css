@@ -1,0 +1,47 @@
+/*棣栭〉涓讳綋鏍峰紡*/
+.main-fluid{background-color:#ffffff;padding:6px 11px;margin:13px 0 0 0;}
+.main-fluid .part{padding-right:5px;padding-left:5px;}
+
+.list>li{margin-bottom:5px;}
+.list>li>a{font-size:16px;color:#383838;display:block;background-color:#ebebeb;padding:15px 0;}
+.list2>li{margin-bottom:8px;}
+.list2>li>a{font-size:16px;color:#383838;display:block;background-color:#ebebeb;padding:21px 0;}
+.list>li>a:hover .icon,.list2>li>a:hover .icon{transform: rotateY(360deg);transition: .5s all;-webkit-transition: .5s all;-moz-transition: .5s all;-o-transition: .5s all;-ms-transition: .5s all;}
+.icon{width:28px;height:24px;background-image: url(icons.png);display: inline-block;vertical-align: text-top;background-repeat: no-repeat;margin-left:15px;margin-right:15px;}
+.icon-kc{background-position: 0 0;}
+.icon-tk{background-position: 0 -59px;}
+.icon-js{background-position: 0 -118px;}
+.icon-jx{background-position: 0 -177px;}
+.icon-zx{background-position: 0 -236px;}
+.icon-ck{background-position: -210px 0;}
+.icon-xk{background-position: -210px -74px;}
+.icon-pt{background-position: -210px -148px;}
+.icon-sx{background-position: -210px -222px;}
+
+.nbox{background-color:#ffffff;}
+.nbox .page-header{margin:13px 0 0 0;border-bottom:1px solid #dcdcdc;padding-bottom:0}
+.nbox .title{font-size:18px;color:#ad2323;font-weight:bold;padding:8px 10px;}
+.nbox .more{padding:12px 15px 0 15px;}
+.nbox .more a{color:#ad2323;font-weight:bold;font-size:14px;}
+
+.nbox .nlist{padding:5px 12px;}
+.nbox .nlist2{padding:7px 10px 0 10px;}
+
+.contact{padding:5px 12px;}
+.contact p{padding-left:40px;color:#333;line-height:24px;margin-bottom:6px;}
+.contact p.tel{background:url(icons.png) 0 -328px no-repeat;}
+.contact p.email{background:url(icons.png) 0 -370px no-repeat;}
+.contact p.add{background:url(icons.png) 0 -412px no-repeat;}
+
+.friendlink{border:1px solid #90bcbe;background-color:#cde7e9;margin-top:12px;}
+.friendlink h3{margin-top:15px;font-size:16px;color:#000;}
+.friendlink li {float: left;color: #404040;line-height: 14px;text-align: center;font-size: 14px;border-left: 1px solid #404040;margin: 16px 0;padding: 0 26px;}
+.friendlink .one{border:0;}
+
+@media (max-width: 767px) {
+    .nlink,.focus{margin-bottom:10px;}
+	.friendlink .select{width:40%;}
+}
+@media (max-width:480px) {
+	.friendlink .select{width:100%;margin-left:0}
+}

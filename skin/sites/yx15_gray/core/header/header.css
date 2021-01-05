@@ -1,0 +1,41 @@
+/*hedaer*/
+.header{background-color:#878a9a;filter: Alpha(Opacity=75);-moz-opacity: 0.75;opacity: 0.75;}
+.headbar{background-color:#ffffff;}
+.navbar-main,.navbar-main-two{border: 0;border-radius: 0;-webkit-border-radius: 0;margin-bottom:0;}
+.navbar-brand{height:98px;padding:30px 15px;}
+.site{position:absolute;top:30px;right:40px;font-size:26px;color:#fff;font-weight:bold;}
+.header_t{position:absolute;top:5px;right:40px;}
+.navbar-main-two .site{color:#6d5957;}
+.navbar-nav>li>a {color: #fff;font-size:16px;padding-top:6px;padding-bottom:6px;}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {color:#FF0000;}
+.navlist .dropdown-menu,.navlist .dropdown-menu li{min-width:100%;}
+.navlist .dropdown-menu li a{font-size:14px;padding:5px 0;text-align:center;}
+.dropdown-menu, .dropdown-menu > li > a {-webkit-border-radius: 0px;-moz-border-radius: 0px;-o-border-radius: 0px;-ms-border-radius: 0px;border-radius: 0px;font-weight: normal;}
+.dropdown-menu {padding:0;border:none;-webkit-box-shadow: 0 3px 12px rgba(0,0,0,.05);box-shadow: 0 3px 12px rgba(0,0,0,.05);-webkit-transition: .25s;-o-transition: .25s;transition: .25s;}
+.navbar-toggle .icon-bar{background-color:#fff;}
+.navbar-main-two .navbar-toggle .icon-bar{background-color:#000;}
+.headbg{height: 130px;width: 100%;background: url(images/header.jpg) right center no-repeat;background-repeat: no-repeat;background-position: right top;background-color: #fcfdfe;}
+/*footer*/
+.footer{background-color:#2f4052;padding:20px 0;margin-top:25px;}
+.siteinfo p{color:#fff;font-size:12px;line-height:24px;}
+.copyright{padding:30px 0;background-color:#283645;color:#fff;font-size:12px;line-height:24px;}
+@media (min-width: 768px){
+    .container-fluid{padding-right:45px;padding-left:45px;}
+    .navbar-menu{background: url(images/navbg.png) center center no-repeat;}
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {margin-left: 0px;}
+    .navbar-main2{background: url(https://www.wgxy.net/skin/sites/yx15_gray/core/header/images/header.png) right center no-repeat;}
+}
+@media (max-width: 1000px){
+    
+}
+@media (max-width: 767px){
+    .navbar-menu{background-color:#878a9a;}
+    .headbg{height:50px;}
+    .main-nav .navbar-brand {
+        height: 50px;
+        padding: 10px 10px;
+    }
+    .navbar-brand>img{height:30px;}
+    .navlist li{width:auto;text-align:left;}
+    .navlist .dropdown-menu li a{text-align:left;color:#fff;}
+}

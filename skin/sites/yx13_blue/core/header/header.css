@@ -1,0 +1,118 @@
+/*hedaer*/
+.header .navbar-logo{padding:24px 0;}
+.header .hlink {color:#fff;text-align:right;padding:5px 0;background: #0e5077;}
+.header .hlink span{margin-right:10px;}
+.header .hlink span a{color:#fff;padding-left:20px;font-size:12px;}
+.header .hlink a{color:#fff;}
+.header .hlink .search{background:url(images/search.png) left center no-repeat;}
+.header .hlink .homepage{background:url(../../../school394/core/header/images/homepage.png) left center no-repeat;}
+.english a {width: 44px;height: 24px;overflow: hidden;display: block;background: #002e73;margin:8px;font-size:14px;line-height:24px;color: #FFFFFF;text-align: center;border-radius: 25px;}
+.navbar-main {background-color: rgba(72,152,205,0.8);border: 0;border-radius: 0;-webkit-border-radius: 0;margin-bottom:0;}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {background-color:transparent;}
+.dropdown-menu{margin:0}
+.dropdown{float: left;padding:14px 0;font-size:16px;}
+.dropdown a:hover{}
+.dropdown a{color:#f6f9fc;text-decoration: none;padding: 0 33px;font-size:16px;border-left: 1px solid #f6f9fc;}
+.dropdown-menu{border-radius:0;background-color:rgba(72,152,205,0.8);color:#333;border:0; font-size:16px;min-width:132px;text-align:center;padding:0;}
+.dropdown-menu>li>a{line-height:2;color:#f6f9fc;padding:2px 20px;font-size:14px;}
+.dropdown:hover> .dropdown-menu{display:block}
+.dropdown>a.menu1 {
+    background: url(images/home.png) 10px 6px no-repeat;
+    border-left: none;
+}
+.dropdown .dropdown-menu a{border:0;}
+.navbar-toggle{border-color:#ddd;}
+.navbar-toggle .icon-bar {background-color:#ddd;}
+
+.shownav{position:relative;margin-top: -170px;z-index: 700;}
+.shownav .showlist li >a{display: block;width: 100%;height: 150px;text-decoration:none;}
+.shownav .showlist li .item{width:100%;height:150px;background:url(images/showbg.png) repeat left top;}
+.shownav .showlist li .item img{transition: 0.5s;-moz-transition: 0.5s;-webkit-transition: 0.5s;-o-transition: 0.5s;}
+.shownav .showlist li:hover .item img{ -webkit-transform:scale(1.1,1.1); -moz-transform:scale(1.1,1.1); -ms-transform:scale(1.1,1.1); -o-transform:scale(1.1,1.1); transform:scale(1.1,1.1);}
+.shownav .showlist li:hover .item{opacity:0.8;filter:alpha(opacity=70); background-color:#022372;}
+.shownav .showlist li:hover .sinfo .more span{color:#3399ff;}
+.shownav .showlist li:hover .sinfo .more a{color:#3399ff;}
+.showlist .more2{margin-top: 25px;cursor: pointer;}
+.shownav .showlist li .spic{width:142px;height:150px; padding:34px 30px;}
+.shownav .showlist li .sinfo{height:82px; text-align:left; padding:34px 0px;}
+.shownav .showlist li .sinfo h2.title{text-align:left;font:600 20px "å¯°?è’‹é—†å‘´ç²¦";color:#fff;margin-top:18px;}
+.shownav .showlist li .sinfo h2.title a{ text-decoration:none; color:#fff;}
+.shownav .showlist li .sinfo .more{text-align:left; font:300 14px "å¯°?è’‹é—†å‘´ç²¦";color:#ccc;margin-top:10px; margin-left:35px;}
+.shownav .showlist li .sinfo .more img{ vertical-align:0px;}
+.shownav .showlist li .sinfo .more a{text-align:center; font:300 14px "å¯°?è’‹é—†å‘´ç²¦"; color:#ccc; margin-top:10px;}
+.shownav .showlist li .sinfo .more a span{  font-weight:bold; font-size:18px; color:#fff;}
+
+
+/*footer*/
+.footer{background:url(images/footer.png) center bottom repeat-x;padding:15px 0 10px 0;color:#fff;}
+.footer.footbg{background-image:url(images/footer.png);}
+.footer a{color:#fff;}
+.fnav h3{font-size:16px;margin-top:0;margin-bottom: 20px;}
+.fnav .flist li{width:25%;float:left;}
+.fnav .flist li a{display:block;padding:8px 0;}
+.flogo{border-left:1px solid #bebebe;padding:25px 45px 45px 30px;margin-top:10px;}
+.codediv{border-left:1px solid #bebebe;padding:0 0 0 90px;margin-top:10px;}
+.codepic{display:inline-block;margin-top:8px;margin-left:20px;}
+.codepic span {display: block;color: #fff;margin-top: 10px;font-size: 14px;}
+.copyright{background-color:#001f41;color:#fff;}
+.copyright p{color:#fff;font-size:14px;line-height:24px;margin:10px 0;}
+
+/*footer2*/
+.footpic{background: #fbf3f3;padding:20px 0;}
+.footpic .container{width: 900px;}
+.footpic .pic{text-align: center;}
+
+.footer2{padding:18px 0 40px;background-color:#0e5077;color:#fff;}
+.footer2 .link{margin-top:10px;}
+.copyright2{color:rgba(247,247,247,0.6);line-height:24px;font-size:12px;}
+.copyright2 p{margin-bottom:0;}
+.footer2 a{color:rgba(247,247,247,0.6);}
+.footer2 .link{color:#fff;font-size: 14px;padding:0 80px 32px;}
+.footer2 ul .one{border:0; }
+.footer2 ul li {color: rgba(247,247,247,0.6);line-height: 14px;text-align: center;font-size: 14px;border-left: 1px solid rgba(247,247,247,0.6);padding: 0 16px;float: left;}
+.footer2 .pic {padding-top: 6px}
+@media (max-width: 767px) {
+    .header .navbar-logo img{max-width:200px;float:left;}
+    .navbar-main .navbar-menu{background-color:#002E73;}
+    .navbar-nav .open .dropdown-menu>li>a {color: #fff !important;}
+    .navbar-nav .open .dropdown-menu>li>a {color: #fff !important;}
+    .dropdown>a.nav1{background:none;}
+    .dropdown{width:100%;padding:5px 0 !important;}
+    .dropdown ul{box-shadow:0 0 0 0;text-align:left;}
+    .dropdown a:hover{background-color:transparent !important}
+    .dropdown a{color:#fff !important;padding: 5px 16px;line-height: 2.4;}
+    .dropdown:hover{background-color: transparent !important}
+    .dropdown-menu>li>a{padding:2px 30px;}
+    .dropdown-submenu > .dropdown-menu{display:block;margin-left:0 !important;left:0 !important;top:38px !important;}
+    .dropdown-submenu > a:after{display:none !important}
+    .footer {background-repeat: repeat;background-size: auto 100%;}
+    .header .logo  img,.flogo img{width:100%;height:auto;}
+    .flogo,.codediv{border-left:none;}
+    .codediv{padding-left:0;}
+    .friendlink .select{width:100%;margin-left:0;}
+
+    .shownav{position: relative;margin-top:0;z-index: 700;}
+    .shownav li{margin:10px 0;}
+    .footpic .container{width: 375px;}
+    .footpic .pic{padding-bottom:15px;}
+}
+/* */
+@media (min-width: 992px) and (max-width: 1200px){
+    .container {
+        width: 1000px;
+    }
+}
+@media (min-width:768px) and (max-width: 1200px){
+    .dropdown a{padding:5px 20px;}
+}
+@media (min-width:768px) and (max-width:992px){
+    .dropdown-menu{text-align:left;min-width:auto;}
+    .dropdown a{padding:5px 7px;}
+}
+@media (max-width:767px){
+    .footer2 .link{padding:0;}
+    .footer2 ul li {width: 33.3%;border:0;line-height: 30px;}
+}
+@media (max-width: 768px){
+    .footer2 ul li {margin:10px 0;}
+}

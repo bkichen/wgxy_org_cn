@@ -1,0 +1,31 @@
+/*棣栭〉涓讳綋鏍峰紡*/
+#myCarousel {
+    margin: 0 auto;
+    display: table;
+}
+.bggray{background-color: #f5f5f5;margin-top: 20px;}
+.box .page-header{margin:20px 0 0;border-bottom: 1px solid #0d518b;}
+.box .h4{margin:0;color:#0d518b;font-size:16px;padding: 10px 35px;}
+.more{padding-top: 10px;}
+.more a{color:#0d518b;font-size: 11px;padding-right: 20px;background: url(more.png) center right no-repeat;}
+ .m-bd{padding-top:15px;}
+.box1 h4{background: url(../../yx04_blue/index/icon1.png) center left no-repeat;}
+.box2 h4{background: url(../../yx04_blue/index/icon2.png) center left no-repeat;}
+.box3 h4{background: url(../../yx04_blue/index/icon3.png) center left no-repeat;}
+.box4 h4{background: url(../../yx04_blue/index/icon2.png) center left no-repeat;}
+.box5 h4{background: url(../../yx04_blue/index/icon2.png) center left no-repeat;}
+.box6 h4{background: url(../../yx04_blue/index/icon2.png) center left no-repeat;}
+.box7 h4{background: url(../../yx04_blue/index/icon4.png) center left no-repeat;}
+.box8 h4{background: url(../../yx04_blue/index/icon2.png) center left no-repeat;}
+.box9 h4{background: url(../../yx04_blue/index/icon2.png) center left no-repeat;}
+.box10 h4{background: url(../../yx04_blue/index/icon2.png) center left no-repeat;}
+
+.nlist{padding-bottom: 30px;}
+.nlist li{margin-bottom:15px ;}
+.nlist a{display: block;padding: 30px 0 30px 40px;border:1px solid #0d518b;text-align: center;color:#0d518b ;}
+.li1 a{background:url(../../yx04_blue/index/list1.png) 20px center  no-repeat;}
+.li2 a{background:url(../../yx04_blue/index/list4.png) 20px center  no-repeat;}
+.li3 a{background:url(../../yx04_blue/index/list5.png) 20px center  no-repeat;}
+.li4 a{background:url(../../yx04_blue/index/list6.png) 20px center  no-repeat;}
+.li5 a{background:url(../../yx04_blue/index/list7.png) 20px center  no-repeat;}
+.li6 a{background:url(../../yx04_blue/index/list9.png) 20px center  no-repeat;}

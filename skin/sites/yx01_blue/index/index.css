@@ -1,0 +1,10 @@
+/*棣栭〉涓讳綋鏍峰紡*/
+.box a:link,.box a:visited{color:#787878;}
+a:hover{color:#9a0000;}
+.box .page-header{margin:20px 0 0;border-bottom: 1px solid #0f80dc;}
+.box .h4{margin:0;color:#2f3030;font-size:20px;}
+.box .h4 span {color:#909090;font-size:14px;padding-left:10px;font-weight:400;}
+.more a{font-size:14px;color:#8c8c8c;}
+ .m-bd{padding-top:15px;}
+.m-bd .marginbot15{margin-bottom: 15px;}
+.qlist,.mlist{margin-top:15px;}

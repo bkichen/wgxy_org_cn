@@ -1,0 +1,102 @@
+body{font-family: "微软雅黑",Microsoft YaHei,"Helvetica Neue",Helvetica,Arial,sans-serif;background:#ffffff;background-size: cover;background-attachment: fixed;background-repeat: no-repeat;}
+ul, ol {padding: 0;margin: 0;list-style: none;}
+img {max-width: 100%;_width: 100%;}
+a{color:#595959;text-decoration:none;}
+a:hover{ color:#0f6cba;text-decoration:none;}
+
+/*header*/
+.header{background:url(images/header.png) right center no-repeat;}
+.hinner{position:relative;}
+#header_t{padding:16px;}
+.header_t a{color:#fff;padding-left: 25px;}
+.header_t .search{background: url(../../../yx01_blue/core/header/images/search.png) left center no-repeat;}
+.header_t .home{background: url(../../../yx01_blue/core/header/images/index.png) left center no-repeat;margin-left: 10px;}
+.header .logo {padding:28px 0;margin: 0;overflow: hidden;}
+.header .wrap {float: right;margin-top:60px;margin-right:15px;}
+.input-group .btn {border: 0;height: 34px;width:50px;background:url(../../../yx01_blue/core/header/images/search.png) center center no-repeat #004986;color:#fff;}
+.navbar-header .input-group .btn{background:url(../../../yx01_blue/core/header/images/search.png) center center no-repeat #e5e5e5;}
+.navbar-main {background-color:#0d518b;border-radius: 0;-webkit-border-radius: 0;border: 0;margin-bottom:0;}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {background-color:transparent;}
+.dropdown-menu{margin:0}
+.dropdown{float: left;padding:14px 0;font-size:16px;}
+.dropdown a:hover{}
+// .dropdown>a.nav1{background:url(images/home.png) left center no-repeat;padding-left: 50px;}
+.dropdown>li>a>.caret{color:#c9c9c9;}
+.dropdown a{color:#ffffff;text-decoration: none;padding: 5px 15px;font-size:16px;}
+.dropdown-menu{border-radius:0;background:#f5f5f5;color:#333;border:0; font-size:16px;min-width:130px;text-align:center;padding:0;}
+.dropdown-menu>li>a{line-height:2;color:#676767;padding:2px 20px;font-size:14px;}
+.dropdown:hover> .dropdown-menu{display:block}
+.navbar-toggle{border-color: #ddd;}
+.navbar-toggle .icon-bar {background-color: #fff;}
+
+/*footer2*/
+.footer2{padding:30px 0 60px 0;background-color: #0d518b;}
+.frendlink{margin-bottom: 15px;}
+.frendlink li:first-child{margin-left:180px;color:#f7f7f7;font-size:14px;}
+.frendlink li{text-align: center;float: left;}
+.frendlink span{margin: 0 15px;color:#f7f7f7;}
+.frendlink a{ color:#f7f7f7;}
+.frendlink a:hover{ color:#0f6cba;text-decoration:none;}
+.copyright2{line-height:24px;font-size:14px;}
+.copyright2 p{margin-bottom:0;color:#f7f7f7;}
+.copyright2 p a{color:#f7f7f7;}
+.footer2 a{font-size:14px;}
+@media (max-width:480px) {
+	.friendlink .select{width:100%;margin-left:0}
+}
+@media (max-width: 767px) {
+    .header .logo {
+		float: none;
+		display: block;
+		padding-left: 0;
+		margin-left: auto;
+		margin-right: auto;
+		width: 200px;
+		padding: 20px 0;
+	}
+	.search{
+        float:left;
+        display:block;
+    }
+	.search .navbar-form{
+        padding:0;margin:6px 0 0 15px;
+    }
+	.navbar-nav .open .dropdown-menu>li>a {color: #fff !important;}
+	.dropdown>a.nav1{background:none;}
+	.dropdown{width:100%;padding:5px 0 !important;}
+	.dropdown ul{box-shadow:0 0 0 0;text-align:left;background:#0d518b;}
+	.dropdown a:hover{background-color:transparent !important}
+	.dropdown a{padding: 5px 16px;line-height: 2.4;}
+	.dropdown:hover{background-color: transparent !important}
+	.dropdown-menu>li>a{padding:2px 30px;color:#fff;}
+	.dropdown-submenu > .dropdown-menu{display:block;margin-left:0 !important;left:0 !important;top:38px !important;}
+	.dropdown-submenu > a:after{display:none !important}
+	.footer {
+		background-repeat: repeat;
+		background-size: auto 100%;
+	}
+	.flogo,.codediv{border-left:none;}
+	.codediv{padding-left:0;}
+	.friendlink .select{width:40%;}
+	.frendlink li:first-child{margin-left:0;height:50px;}
+}
+/* */
+@media (min-width:1220px){
+	.container {
+		width: 1200px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1200px){
+	.container {
+		width: 1000px;
+	}
+}
+@media (min-width:768px) and (max-width:992px){
+	.dropdown-menu{text-align:left;min-width:auto;}
+	.dropdown a{padding:5px 7px;}
+}
+
+
+
+
+

@@ -1,0 +1,32 @@
+锘?*棣栭〉涓讳綋鏍峰紡*/
+.box .page-header{margin:20px 0 0;padding-bottom:0;border-bottom: 1px solid #dcdcdc;height:40px;}
+.box .h4{margin:0;font-weight:400;font-size:16px;color:#424242;}
+.box .h4 span {color:#21375e;font-size:22px;display: inline-block;border-bottom: 1px solid #081643;line-height:39px;padding-left:35px;margin-right:15px;}
+.more {padding:15px 15px 0 15px;}
+.more a{font-size:14px;color:#21375e;}
+
+.news .hicon{background:url(nicon1.png) left center no-repeat;}
+.notice .hicon{background:url(nicon2.png) left center no-repeat;}
+.media .hicon{background:url(nicon3.png) left center no-repeat;}
+.feature .hicon{background:url(nicon2.png) left center no-repeat;}
+.teach .hicon{background:url(nicon5.png) left center no-repeat;}
+
+.tpic,.tlist{margin-bottom:28px;}
+.headline{background:#f5f5f5;min-height:62px;padding:0 10px;margin-bottom:4px;}
+.ntlist,.media .ncon1{margin-top:18px;}
+
+.fbox{margin:30px 0;background:#f4f4f4;}
+.fbox .ftit{border:1px solid #c9c9c9;border-right: none;float:left;height:175px;background:#f4f4f4;text-align:center;}
+.fbox .ftit a{padding-top:40px;display:block;text-decoration:none;}
+.fbox .ftit .ficon{margin: 0 auto;background-repeat: no-repeat;background-position: center;width:47px;height:47px;display: block;}
+.fbox .ftit .ficon.fone{background-image: url(ficon1.png);}
+.fbox .ftit .ficon.ftwo{background-image: url(ficon2.png);}
+.fbox .ftit a:hover .ficon{ -moz-transform:rotate(20deg); -webkit-transform:rotate(20deg); -o-transform:rotate(20deg);}
+.fbox .ftit  h3{font-size: 16px;color: #333;}
+.fbox .fpic{border-top: 2px solid #083b68;height: 175px;float: left;position: relative;overflow: hidden;padding:0;}
+@media screen and (max-width:767px){
+	.tpic,.tlist{margin-bottom:10px;}
+	.tpic img{width:100%;height:auto;}
+	.fbox .ftit{width:20%;}
+	.fbox .fpic{width:80%;}
+}

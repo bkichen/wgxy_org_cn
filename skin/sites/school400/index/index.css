@@ -1,0 +1,23 @@
+/*首页主体样式*/
+.nbox {margin-bottom:20px;}
+.nbox .page-header{margin:20px 0 0;border-bottom: solid 1px #dddddd;padding-bottom: 5px;}
+.nbox .title{background:url(tbbz.png) no-repeat;font-size:18px;color:#0c639e;margin-left:10px;padding-left: 35px;}
+.nbox .tt2 {font-size: 12px;font-weight: bold;color: #3b3b3b;padding-left: 8px;}
+.nbox .more{padding:10px 10px 0 10px;}
+.nbox .more a{color:#0068b7;font-size:12px;}
+.npic,.nlist{margin:15px 0 0;}
+.slist{margin:0 10px;}
+
+.nlink{width:100%;min-height: 100px;overflow:hidden;}
+.nlink li{margin-top:15px;}
+.nlink li a{display:block;background:url(bg.png) repeat-x;height:30px;border:1px solid #097fc9;}
+.nlink li a .icon{width:40px;height:28px;display:inline-block;vertical-align: middle;}
+.nlink .icon-one{background:url(q1.png) center center no-repeat;}
+.nlink .icon-two{background:url(q2.png) center center no-repeat;}
+.nlink .icon-three{background:url(q3.png) center center no-repeat;}
+.nlink .icon-four{background:url(q4.png) center center no-repeat;}
+.nlink .icon-five{background:url(q5.png) center center no-repeat;}
+.nlink .icon-six{background:url(q6.png) center center no-repeat;}
+@media (max-width: 767px) {
+	.nbox {margin-bottom:10px;}
+}

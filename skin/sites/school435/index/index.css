@@ -1,0 +1,20 @@
+/*首页主体样式*/
+.gray{background-color:#f3f2f2;margin-top:20px;}
+.indfocus,.nbox{margin-top:15px;}
+.nbox{border:1px solid #dcdcdc;}
+.nbox .page-title{position:relative;border-bottom:1px solid #8f000b;}
+.nbox .page-title .title {float: left;margin: 0;font-size:18px;color: #700005;font-weight:bold;position:relative;padding:11px 15px;background:url(arr.png) center bottom no-repeat;}
+.nbox .page-title .more{margin-top:10px;margin-right:10px;}
+.nbox .page-title .more a{color:#700005;font-size:14px;text-decoration:none;}
+.nbox .nlist{min-height:307px;padding:10px 10px;}
+.nbox .nlist2{min-height:228px;padding:8px 10px;}
+.nbox .nlist3{min-height:100px;padding:12px 10px 0 10px;}
+.hotpic{margin:18px 10px 0 10px;}
+.hotpic img{max-width:100%;height:auto;}
+.links{border:1px solid #dcdcdc;margin:15px 0;}
+.links li{float:left;}
+.links li span{font-size:18px;color: #700005;font-weight:bold;padding:15px 20px;display:block;}
+.links li a{color:#383838;text-decoration:none;padding:17px 28px;display:block;}
+.links li a:hover{color:#8f000b;}
+.contact{margin:11px 10px 0 10px;}
+.contact p{font-size:12px;color:#404040;margin-bottom:14px;}

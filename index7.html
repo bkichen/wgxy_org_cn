@@ -1,0 +1,608 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=2.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="renderer" content="webkit">
+<meta name="keywords" content="学校网站系统,学校平台">
+<meta name="description" content="机电工程学院">
+<title>武汉工程职业技术学院 机电工程学院</title>
+<link href="skin/sites/common/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+<link href="skin/sites/common/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+<link href="skin/sites/yx04_blue/core/header/common.css" type="text/css" rel="stylesheet">
+<link href="skin/sites/yx01_blue/core/header/header.css" type="text/css" rel="stylesheet">
+<link href="skin/label/label.css" type="text/css" rel="stylesheet">
+<link href="skin/label/swiper-3.3.1.min.css" type="text/css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+<script src="https://www.wgxy.org.cn/skin/sites/common/js/ie8-responsive-file-warning.js"></script>
+<script src="https://www.wgxy.org.cn/skin/sites/common/js/html5shiv.min.js"></script>
+<script src="https://www.wgxy.org.cn/skin/sites/common/js/respond.min.js"></script>
+<script type="text/javascript">
+(function(){var ajax,xmlHttp;var links=document.getElementsByTagName("link");baseElem=document.getElementsByTagName("base")[0];ajax=function(url,callback){var req=xmlHttp();if(!req){return;}
+req.open("GET",url,true);req.onreadystatechange=function(){if(req.readyState!=4||req.status!=200&&req.status!=304){return;}
+callback(req.responseText);};if(req.readyState==4){return;}
+req.send();};xmlHttp=(function(){var xmlhttpmethod=false,attempts=[function(){return new XMLHttpRequest();},function(){return new ActiveXObject("Microsoft.XMLHTTP");},function(){return new ActiveXObject("MSXML2.XMLHTTP.3.0");}],al=attempts.length;while(al--){try{xmlhttpmethod=attempts[al]();}
+catch(e){continue;}
+break;}
+return function(){return xmlhttpmethod;};})();for(var i=0,linkl=links.length;i<linkl;i++){var thislink=links[i],href=links[i].href,extreg=(/^([a-zA-Z:]*\/\/(www\.)?)/).test(href),ext=(baseElem&&!extreg)||extreg;if(thislink.rel.indexOf("stylesheet")>=0&&ext&&thislink.href.indexOf("bootstrap")>=0){ajax('/bootstrap.min.css',function(css){thislink.styleSheet.rawCssText=css;respond.update();});break;}}}());
+</script>
+<![endif]-->
+<script src="skin/sites/common/js/jquery.min.js" type="text/javascript"></script>
+<script src="skin/sites/common/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/util.js"></script>
+<script type="text/javascript" src="js/swiper-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/koala.min.1.5.js"></script>
+<script type="text/javascript" src="js/jquery.touchSlider.js"></script>
+<script type="text/javascript" src="js/jquery.iosslider.js"></script>
+<script type="text/javascript" src="js/jquery.easing-1.3.js"></script>
+<script type="text/javascript" src="js/lang/core/zh-cn.js"></script>
+<script type="text/javascript" src="js/lang/sites/zh-cn.js"></script>
+<script type="text/javascript">
+P8CONFIG.RESOURCE = 'https://www.wgxy.org.cn';
+var SYSTEM = 'sites',
+MODULE = '',
+ACTION = 'main',
+LABEL_URL = '/s.php/jdxy/?verified=1',
+$this_router = P8CONFIG.URI[SYSTEM][MODULE].controller,
+$this_url = $this_router +'-'+ ACTION,
+SKIN = 'https://www.wgxy.org.cn/skin/sites/yx01_blue/',
+TEMPLATE = 'yx01_blue';
+mobile_status= '1',
+mobile_auto_jump='1',
+mobile_url = '';
+if(mobile_status=='1' && SYSTEM!='sites'){
+if(browser.versions.android || browser.versions.iPhone || browser.versions.iPad){
+if(mobile_auto_jump=='1' && mobile_url!=P8CONFIG.RESOURCE){
+var this_url = location.href,_pul=P8CONFIG.RESOURCE;
+if(this_url.indexOf(mobile_url)==-1 && this_url.indexOf('s.php')==-1 && this_url.indexOf('u.php')==-1 && this_url.indexOf('admin.php')==-1 && SYSTEM!='sites'){
+if(this_url.indexOf(P8CONFIG.RESOURCE+'/html')!=-1)_pul+='/html';
+this_url = this_url.replace(_pul, mobile_url);
+location.href = this_url;
+}
+}
+}
+}document.domain = 'wgxy.org.cn';document.base_domain = 'wgxy.org.cn';
+</script>
+<script type="text/javascript">
+function nTabs(thisObj,Num){
+if(thisObj.className == "active")return;
+var tabObj = thisObj.parentNode.id;
+var tabList = document.getElementById(tabObj).getElementsByTagName("li");
+for(i=0; i <tabList.length; i++)
+{
+if (i == Num)
+{
+thisObj.className = "active"; 
+document.getElementById(tabObj+"_Content"+i).style.display = "block";
+}else{
+tabList[i].className = "normal"; 
+document.getElementById(tabObj+"_Content"+i).style.display = "none";
+}
+} 
+}
+</script>
+</head>
+<body>
+<header class="header">
+<div class="container hinner">
+<div class="row">
+<div class="col-md-6 col-md-push-6 col-sm-6 col-xs-12">
+<div class="header_t fr" id="header_t">
+<span id="header_login" class="user-login"> 
+<a href="javascript:;" class="search">搜索</a>
+<a href="index.html" class="home">学校主页</a>
+</span>
+</div>
+</div>
+<div class="col-md-6 col-md-pull-6 col-sm-6 col-xs-12">
+<h1 class="logo"><a href=""><img src="attachment/sites/farm/2019_03/21_11/32b7933a81b3c650.png"></a></h1>
+
+</div>
+
+</div>
+</div>
+</header>
+<nav class="navbar navbar-main navbar-static-top" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+<li>
+<div class="dropdown">  
+<a href="" target="" class="nav1">首页 <span class="caret"></span></a>					
+</div> 
+</li>
+<li>
+<div class="dropdown">  
+<a href="javascript:;" target="" class="nav2">学院概况 <span class="caret"></span></a>
+<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+<li><a href="javascript:;" target="">学院简介</a></li>
+<li><a href="javascript:;" target="">专业介绍</a></li>
+<li><a href="javascript:;" target="">师资队伍</a></li>
+</ul>					
+</div> 
+</li>
+<li>
+<div class="dropdown">  
+<a href="javascript:;" target="" class="nav3">新闻公告 <span class="caret"></span></a>
+<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+<li><a href="javascript:;" target="">学院要闻</a></li>
+<li><a href="javascript:;" target="">通知公告</a></li>
+</ul>					
+</div> 
+</li>
+<li>
+<div class="dropdown">  
+<a href="javascript:;" target="" class="nav4">专业建设 <span class="caret"></span></a>
+<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+<li><a href="javascript:;" target="">教学科研</a></li>
+<li><a href="javascript:;" target="">实训室建设</a></li>
+<li><a href="javascript:;" target="">学生竞赛</a></li>
+<li><a href="javascript:;" target="">重点专业</a></li>
+<li><a href="javascript:;" target="_blank">特色专业</a></li>
+</ul>					
+</div> 
+</li>
+<li>
+<div class="dropdown">  
+<a href="javascript:;" target="" class="nav5">党建工作 <span class="caret"></span></a>
+<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+<li><a href="javascript:;" target="">党群工作</a></li>
+<li><a href="javascript:;" target="">团学工作</a></li>
+</ul>					
+</div> 
+</li>
+<li>
+<div class="dropdown">  
+<a href="javascript:;" target="" class="nav6">校企合作 <span class="caret"></span></a>
+<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+<li><a href="javascript:;" target="">合作企业</a></li>
+<li><a href="javascript:;" target="">技能培训</a></li>
+</ul>					
+</div> 
+</li>
+<li>
+<div class="dropdown">  
+<a href="javascript:;" target="" class="nav7">实习就业 <span class="caret"></span></a>
+<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+<li><a href="javascript:;" target="">招聘信息</a></li>
+<li><a href="javascript:;" target="">录用名单</a></li>
+<li><a href="javascript:;" target="">就业指导</a></li>
+<li><a href="javascript:;" target="">服务湖北</a></li>
+<li><a href="javascript:;" target="">优秀毕业生推荐</a></li>
+</ul>					
+</div> 
+</li>
+<li>
+<div class="dropdown">  
+<a href="javascript:;" target="" class="nav8">资料下载 <span class="caret"></span></a>					
+</div> 
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<script type="text/javascript">
+$(document).ready(function(){
+//**show_edit**//					   
+init_labelshows('header_t');
+//**menu**//
+$('#menu_nav li>dl').hide();
+$('#menu_nav li:first').addClass('over');
+$('#menu_nav li').each(function () {
+$(this).hover(
+function(){
+$('#menu_nav li').removeClass();
+$('#menu_nav li>dl').hide();
+$(this).addClass('over');
+$(this).find('dl').show();
+},
+function(){
+$(this).find('dl').hide();
+}
+)
+});
+})
+</script>
+<div class="content bg_white">
+<link rel="stylesheet" type="text/css" href="skin/sites/yx01_blue/index/index.css">
+<div id="myCarousel" class="carousel slide">
+
+<div id="carousel-example-generic41087" class="full-width carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#carousel-example-generic41087" data-slide-to="0" class="pagination"></li>
+</ol>
+<!-- Wrapper for slides -->
+<div class="carousel-inner" role="listbox">
+<div class="item"><a href=""><img src="attachment/core/label/2019_03/27_09/e68c787aefec4a75.jpg" width="100%" height="470" alt="" class="img-responsive"></a></div>
+</div>
+<!-- Controls -->
+<a class="left carousel-control" href="javascript:;" role="button" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="javascript:;" role="button" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+<script type="text/javascript">
+(function () {
+$("#carousel-example-generic41087 .carousel-inner .item:first,#carousel-example-generic41087 .carousel-indicators .pagination:first").addClass("active");
+})()
+</script>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-sm-8 col-xs-12">
+<div class="mien box">
+<div class="page-header">
+<div class="pull-left"><h4 class="h4">学院要闻</h4></div>
+<div class="pull-right more"><a href="javascript:;" target="_blank">更多>></a></div>
+<div class="clearfix"></div>
+</div>
+<div class="mlist">
+<div class="row">
+<div class="col-md-6 col-xs-12 col-sm-6">
+
+<style type="text/css">
+.focus41276{ position:relative; width:100%;height:285px;}  
+.focus41276 img{ width: 100%; height: 285px;} 
+.focus41276 .shadow .title{width: 260px; height: 65px;padding-left: 30px;padding-top: 20px;}
+.focus41276 .shadow .title a{ text-decoration:none; color:#fff; font-size:14px; font-weight:bolder; overflow:hidden; }
+.focus41276 .btn{ position:absolute; bottom:34px; left:510px; overflow:hidden; zoom:1;} 
+.focus41276 .btn a{position:relative; display:inline; width:13px; height:13px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "微软雅黑"; text-decoration:none; text-align:center; outline:0; float:left; background:#D9D9D9; }  
+.focus41276 .btn a:hover,.focus41276 .btn a.current{  cursor:pointer;background:#009b01;}   
+.focus41276 .D1fBt{ overflow:hidden; zoom:1;  height:16px; z-index:10;  }  
+.focus41276 .shadow{ width:100%; position:absolute; bottom:0; left:0px; z-index:10; height:30px; line-height:30px;  background:rgba(0,0,0,0.6);    
+filter:progid:DXImageTransform.Microsoft.gradient( GradientType = 0,startColorstr = '#80000000',endColorstr = '#80000000')9;  display:block;  text-align:left; overflow:hidden; }  
+.focus41276 .shadow a{ text-decoration:none; color:#fff; font-size:16px;margin-left:10px;}  
+.focus41276 .fcon{ position:relative; width:100%; float:left;  display:none; background:#fffff;}  
+.focus41276 .fcon img{ display:block; }  
+.focus41276 .fbg{bottom:5px; right:10px; position:absolute; height:21px; text-align:center; z-index: 200; }  
+.focus41276 .fbg div{margin:4px auto 0;overflow:hidden;zoom:1;height:14px}    
+.focus41276 .D1fBt a{position:relative; display:inline; width:12px; height:12px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "微软雅黑"; text-decoration:none; text-align:center; outline:0; float:left; background:#D9D9D9; }    
+.focus41276 .D1fBt .current,.focus41276 .D1fBt a:hover{background:#009b01;}    
+.focus41276 .D1fBt img{display:none}    
+.focus41276 .D1fBt i{display:none; font-style:normal;}    
+</style>
+<div id="fsD1" class="focus41276">  
+<div id="D1pic1" class="fPic">  
+<div class="fcon" style="display: none;">
+<a href="javascript:;" target="_blank" title="我校再次获评“昆山高新区政校企合作优秀院校”"><img src="Uploadfile/images/20201224211921554001.png" alt="我校再次获评“昆山高新区政校企合作优秀院校”" style="opacity: 1; "></a>
+<span class="shadow"><a target="_blank" href="javascript:;">我校再次获评“昆山高新区政校企合作优秀院校”</a></span>
+</div> 
+<div class="fcon" style="display: none;">
+<a href="javascript:;" target="_blank" title="我校举行“海尔订单班”开班仪式"><img src="Uploadfile/images/20201223160316333001.jpg" alt="我校举行“海尔订单班”开班仪式" style="opacity: 1; "></a>
+<span class="shadow"><a target="_blank" href="javascript:;">我校举行“海尔订单班”开班仪式</a></span>
+</div> 
+<div class="fcon" style="display: none;">
+<a href="javascript:;" target="_blank" title="秋招启动-----中国宝武旗下企业来机电学院开展招聘工作"><img src="Uploadfile/images/20201207094750538001.png" alt="秋招启动-----中国宝武旗下企业来机电学院开展招聘工作" style="opacity: 1; "></a>
+<span class="shadow"><a target="_blank" href="javascript:;">秋招启动-----中国宝武旗下企业来机电学院开展招聘工作</a></span>
+</div> 
+<div class="fcon" style="display: none;">
+<a href="javascript:;" target="_blank" title="机电工程学院2020级订单班建班名单公示"><img src="Uploadfile/images/20201205160240213001.png" alt="机电工程学院2020级订单班建班名单公示" style="opacity: 1; "></a>
+<span class="shadow"><a target="_blank" href="javascript:;">机电工程学院2020级订单班建班名单公示</a></span>
+</div> 
+<div class="fcon" style="display: none;">
+<a href="javascript:;" target="_blank" title="2020年秋季“昆山鸿准订单班”培训表彰会圆满结束"><img src="Uploadfile/images/20201205155447938001.jpg" alt="2020年秋季“昆山鸿准订单班”培训表彰会圆满结束" style="opacity: 1; "></a>
+<span class="shadow"><a target="_blank" href="javascript:;">2020年秋季“昆山鸿准订单班”培训表彰会圆满结束</a></span>
+</div> 
+</div>
+<div class="fbg">  
+<div class="D1fBt" id="D1fBt"> 
+<a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>0</i></a>  
+<a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>1</i></a>  
+<a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>2</i></a>  
+<a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>3</i></a>  
+<a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>4</i></a>  
+</div>  
+</div>  
+</div>  
+<script type="text/javascript">
+Qfast.add('widgets', { path: "https://www.wgxy.org.cn/js/terminator2.2.min.js", type: "js", requires: ['fx'] });  
+Qfast(false, 'widgets', function () {
+K.tabs({
+id: 'fsD1',   //焦点图包裹id  
+conId: "D1pic1",  //** 大图域包裹id  
+tabId:"D1fBt",  
+tabTn:"a",
+conCn: '.fcon', //** 大图域配置class       
+auto: 1,   //自动播放 1或0
+effect: 'fade',   //效果配置
+eType: 'click', //** 鼠标事件
+pageBt:true,//是否有按钮切换页码
+bns: ['.prev', '.next'],//** 前后按钮配置class                          
+interval: 3000  //** 停顿时间  
+}) 
+})  
+</script>
+</div>
+<div class="col-md-6 col-xs-12 col-sm-6">
+<ul class="adaplist23 label_nowrap" style="font-size:14px;color:#808080;">
+<li>
+<a href="javascript:;" target="_blank" title="我校再次获评“昆山高新区政校企合作优秀院校”"><span>我校再次获评“昆山高新区政校企合作优秀院</span><span class="label_datatime" style="font-size:14px;">12-24</span></a>
+</li>
+<li>
+<a href="javascript:;" target="_blank" title="我校举行“海尔订单班”开班仪式"><span>我校举行“海尔订单班”开班仪式</span><span class="label_datatime" style="font-size:14px;">12-23</span></a>
+</li>
+<li>
+<a href="javascript:;" target="_blank" title="秋招启动-----中国宝武旗下企业来机电学院开展招聘工作"><span>秋招启动-----中国宝武旗下企业来机电学院</span><span class="label_datatime" style="font-size:14px;">12-07</span></a>
+</li>
+<li>
+<a href="javascript:;" target="_blank" title="机电工程学院2020级订单班建班名单公示"><span>机电工程学院2020级订单班建班名单公示</span><span class="label_datatime" style="font-size:14px;">12-05</span></a>
+</li>
+<li>
+<a href="javascript:;" target="_blank" title="2020年秋季“昆山鸿准订单班”培训表彰会圆满结束"><span>2020年秋季“昆山鸿准订单班”培训表彰会圆</span><span class="label_datatime" style="font-size:14px;">12-05</span></a>
+</li>
+<li>
+<a href="javascript:;" target="_blank" title="铭记是最好的缅怀"><span>铭记是最好的缅怀</span><span class="label_datatime" style="font-size:14px;">11-18</span></a>
+</li>
+<li>
+<a href="javascript:;" target="_blank" title="我院参赛作品获第九届大学生机械创新设计大赛湖北赛区二等奖"><span>我院参赛作品获第九届大学生机械创新设计大</span><span class="label_datatime" style="font-size:14px;">11-17</span></a>
+</li>
+<li>
+<a href="javascript:;" target="_blank" title="机电工程学院专业教师赴上海研讨产教融合实训室建设方案"><span>机电工程学院专业教师赴上海研讨产教融合实</span><span class="label_datatime" style="font-size:14px;">11-17</span></a>
+</li>
+<li>
+<a href="javascript:;" target="_blank" title="我院组织师生参加消防安全培训和消防疏散演练"><span>我院组织师生参加消防安全培训和消防疏散演</span><span class="label_datatime" style="font-size:14px;">11-10</span></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="quick box">
+<div class="page-header">
+<div class="pull-left"><h4 class="h4">通知公告</h4></div>
+<div class="pull-right more"><a href="javascript:;" target="_blank">更多>></a></div>
+<div class="clearfix"></div>
+</div>
+<div class="qlist clearfix">
+<style type="text/css">
+.list_adap_date13 li{margin-top:8px;padding-left:12px;}
+.list_adap_date13 .datelist .time{width:58px;height:49px;float:left;background-color:#134e88;text-align:center;margin-right:20px;}
+.list_adap_date13 .datelist .time span{display:block;font-size:20px;color: #fff;line-height:25px;}
+.list_adap_date13 .datelist .time .year{background:#04437e}
+.list_adap_date13 .datelist .time .date{background:#e8e8e8;color: #04437e;font-size:12px;}
+.list_adap_date13 .datelist .dinfo h5{font-size:14px;font-weight:normal;color:#134e88;margin:0;}
+.list_adap_date13 .datelist .dinfo h5 a{color:#787878;line-height: 25px;}
+.list_adap_date13 .datelist .dinfo h5 a:hover{color:#9a0000;}
+.list_adap_date13 .datelist .dinfo .summary{margin:5px 0 0;color:#959595;}
+</style>
+<ul class="list_adap_date13">
+<li>
+<div class="media datelist">
+<div class="time">
+<span class="year">18</span>
+<span class="date">2020-11</span>
+</div>
+<div class="media-body dinfo">
+<h5><a href="javascript:;" title="关于蔡杰同学放弃学籍的公告" target="_blank">关于蔡杰同学放弃学籍的公告</a></h5>
+</div>
+</div>
+</li>
+<li>
+<div class="media datelist">
+<div class="time">
+<span class="year">18</span>
+<span class="date">2020-11</span>
+</div>
+<div class="media-body dinfo">
+<h5><a href="javascript:;" title="关于梁行同学放弃学籍的公告" target="_blank">关于梁行同学放弃学籍的公告</a></h5>
+</div>
+</div>
+</li>
+<li>
+<div class="media datelist">
+<div class="time">
+<span class="year">20</span>
+<span class="date">2020-10</span>
+</div>
+<div class="media-body dinfo">
+<h5><a href="javascript:;" title="机电工程学院2019-2020年度国家奖学金入选学生情况公示" target="_blank">机电工程学院2019-2020年度国家奖学金入选学生情况公</a></h5>
+</div>
+</div>
+</li>
+<li>
+<div class="media datelist">
+<div class="time">
+<span class="year">19</span>
+<span class="date">2020-10</span>
+</div>
+<div class="media-body dinfo">
+<h5><a href="javascript:;" title="2020-2021学年贫困生认定工作评审领导小组名单公示" target="_blank">2020-2021学年贫困生认定工作评审领导小组名单公示</a></h5>
+</div>
+</div>
+</li>
+<li>
+<div class="media datelist">
+<div class="time">
+<span class="year">11</span>
+<span class="date">2020-06</span>
+</div>
+<div class="media-body dinfo">
+<h5><a href="javascript:;" title="关于席伟军同学放弃学籍的公告" target="_blank">关于席伟军同学放弃学籍的公告</a></h5>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="row">
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="news-focus box">
+<div class="page-header">
+<div class="pull-left"><h4 class="h4">校企合作<span>News</span></h4></div>
+<div class="pull-right more"><a href="javascript:;" target="_blank">更多>></a></div>
+<div class="clearfix"></div>
+</div>
+<div class="m-bd">
+<div class="marginbot15"><a href="javascript:;" target="_blank" title="" style="text-decoration:none;"><img width="380" height="150" border="none" alt="" src="attachment/core/label/2019_04/11_11/8c477d15a0cd55ec.jpg"></a></div>
+<div><ul class="adaplist23 label_nowrap" style="font-size:14px;color:#808080;">
+<li>
+<a href="2019_09/23_00/content-20336.html" target="_blank" title="2019级订单班建班通告"><span>2019级订单班建班通告</span><span class="label_datatime" style="font-size:14px;">09-23</span></a>
+</li>
+<li>
+<a href="2017_05/19_13/content-14974.html" target="_blank" title="我院与联想武汉基地举行校企合作签约仪式"><span>我院与联想武汉基地举行校企合作签约仪式</span><span class="label_datatime" style="font-size:14px;">05-19</span></a>
+</li>
+<li>
+<a href="2017_05/08_17/content-14975.html" target="_blank" title="机电工程学院赴武汉东湖高新区考察走访企业"><span>机电工程学院赴武汉东湖高新区考察走访企业</span><span class="label_datatime" style="font-size:14px;">05-08</span></a>
+</li>
+<li>
+<a href="2017_05/08_17/content-14976.html" target="_blank" title="2017年春季模具专场招聘会"><span>2017年春季模具专场招聘会</span><span class="label_datatime" style="font-size:14px;">05-08</span></a>
+</li>
+<li>
+<a href="2016_03/01_11/content-14977.html" target="_blank" title="我院连续两年获富士康C次集团优质合作院校"><span>我院连续两年获富士康C次集团优质合作院校</span><span class="label_datatime" style="font-size:14px;">03-01</span></a>
+</li>
+<li>
+<a href="2015_12/17_18/content-14978.html" target="_blank" title="我院在全国应用型人才综合技能大赛上获佳绩"><span>我院在全国应用型人才综合技能大赛上获佳绩</span><span class="label_datatime" style="font-size:14px;">12-17</span></a>
+</li>
+<li>
+<a href="2015_05/05_16/content-14979.html" target="_blank" title="我院在“挑战杯—彩虹人生”全国职业学校创新创业创效大赛上获佳绩"><span>我院在“挑战杯—彩虹人生”全国职业学校创</span><span class="label_datatime" style="font-size:14px;">05-05</span></a>
+</li>
+</ul></div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="dynamic box">
+<div class="page-header">
+<div class="pull-left"><h4 class="h4">党建工作<span>News</span></h4></div>
+<div class="pull-right more"><a href="javascript:;" target="_blank">更多>></a></div>
+<div class="clearfix"></div>
+</div>
+<div class="m-bd">
+<div class="marginbot15"><a href="javascript:;" target="_blank" title="" style="text-decoration:none;"><img width="380" height="150" border="none" alt="" src="attachment/core/label/2019_04/11_11/9f525ff7ab9ad1e7.jpg"></a></div>
+<div><ul class="adaplist23 label_nowrap" style="font-size:14px;color:#808080;">
+<li>
+<a href="2020_10/24_00/content-21669.html" target="_blank" title="机电工程学院党支部召开换届选举大会"><span>机电工程学院党支部召开换届选举大会</span><span class="label_datatime" style="font-size:14px;">10-24</span></a>
+</li>
+<li>
+<a href="2020_07/03_21/content-21032.html" target="_blank" title="机电工程学院党支部召开预备党员转正大会"><span>机电工程学院党支部召开预备党员转正大会</span><span class="label_datatime" style="font-size:14px;">07-03</span></a>
+</li>
+<li>
+<a href="2020_06/22_14/content-21002.html" target="_blank" title="三支部主题党日“云游”理想与信念的起点"><span>三支部主题党日“云游”理想与信念的起点</span><span class="label_datatime" style="font-size:14px;">06-22</span></a>
+</li>
+<li>
+<a href="2020_06/22_10/content-20994.html" target="_blank" title="校长陈英颖为机电工程学院全体教职工上专题党课"><span>校长陈英颖为机电工程学院全体教职工上专题</span><span class="label_datatime" style="font-size:14px;">06-22</span></a>
+</li>
+<li>
+<a href="2019_10/25_11/content-20428.html" target="_blank" title="陈英颖院长为机电学院和经贸学院党员讲党课"><span>陈英颖院长为机电学院和经贸学院党员讲党课</span><span class="label_datatime" style="font-size:14px;">10-25</span></a>
+</li>
+<li>
+<a href="2019_05/17_00/content-19421.html" target="_blank" title="机电工程学院党支部2019年党员亮承诺"><span>机电工程学院党支部2019年党员亮承诺</span><span class="label_datatime" style="font-size:14px;">05-17</span></a>
+</li>
+<li>
+<a href="javascript:;" target="_blank" title="情系机电 浓情端午"><span>情系机电 浓情端午</span><span class="label_datatime" style="font-size:14px;">06-20</span></a>
+</li>
+</ul></div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">
+<div class="notice box">
+<div class="page-header">
+<div class="pull-left"><h4 class="h4">实习就业<span>News</span></h4></div>
+<div class="pull-right more"><a href="javascript:;" target="_blank">更多>></a></div>
+<div class="clearfix"></div>
+</div>
+<div class="m-bd">
+<div class="marginbot15"><a href="javascript:;" target="_blank" title="" style="text-decoration:none;"><img width="380" height="150" border="none" alt="" src="attachment/core/label/2019_04/11_11/806b4f722688d921.jpg"></a></div>
+<div><ul class="adaplist23 label_nowrap" style="font-size:14px;color:#808080;">
+<li>
+<a href="javascript:;" target="_blank" title="2020年学院推荐就业企业名录"><span>2020年学院推荐就业企业名录</span><span class="label_datatime" style="font-size:14px;">12-05</span></a>
+</li>
+<li>
+<a href="javascript:;" target="_blank" title="武汉裕大华纺织有限公司招聘简章"><span>武汉裕大华纺织有限公司招聘简章</span><span class="label_datatime" style="font-size:14px;">11-08</span></a>
+</li>
+<li>
+<a href="2018_11/05_13/content-14968.html" target="_blank" title="我院师生参观裕大华纺织有限公司"><span>我院师生参观裕大华纺织有限公司</span><span class="label_datatime" style="font-size:14px;">11-05</span></a>
+</li>
+<li>
+<a href="javascript:;" target="_blank" title="九州通医药集团物流有限公司招聘简章"><span>九州通医药集团物流有限公司招聘简章</span><span class="label_datatime" style="font-size:14px;">06-12</span></a>
+</li>
+<li>
+<a href="javascript:;" target="_blank" title="东莞市欣亿维精密机械有限公司招聘简章"><span>东莞市欣亿维精密机械有限公司招聘简章</span><span class="label_datatime" style="font-size:14px;">06-01</span></a>
+</li>
+<li>
+<a href="javascript:;" target="_blank" title="武汉华夏精冲技术有限公司招聘简章"><span>武汉华夏精冲技术有限公司招聘简章</span><span class="label_datatime" style="font-size:14px;">05-31</span></a>
+</li>
+<li>
+<a href="javascript:;" target="_blank" title="中铁大桥局机械租赁分公司招聘简章"><span>中铁大桥局机械租赁分公司招聘简章</span><span class="label_datatime" style="font-size:14px;">05-31</span></a>
+</li>
+</ul></div>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div></div>
+<div class="footpic">
+<div class="container">
+
+</div>
+</div>
+<div class="friendlink">
+<div class="container" style="padding: 22px 0;">
+<ul class="clearfix">
+<li>友情链接：</li>
+<li><a href="javascript:;" target="_blank">中国教育部</a></li><span>|</span>
+<li><a href="javascript:;" 　target="_blank">湖北省教育厅</a></li><span>|</span>
+
+<li><a href="javascript:;" 　target="_blank">中国宝武</a></li><span>|</span>
+
+<li><a href="javascript:;" 　target="_blank">俄罗斯鄂木斯克国立交通大学</a></li><span>|</span>
+<li><a href="javascript:;" 　target="_blank">全国职业院校技能大赛</a></li><span>|</span>
+<li><a href="javascript:;" 　target="_blank">教学能力比赛</a></li><span>|</span>
+<li><a href="javascript:;" 　target="_blank">机械创新设计大赛</a></li>
+</ul>
+<div class="row">
+<div class="col-md-3 col-sm-3 col-xs-12">
+<div class="pic"></div>
+</div>
+<div class="col-md-3 col-sm-3 col-xs-12">
+<div class="pic"></div>
+</div>
+<div class="col-md-3 col-sm-3 col-xs-12">
+<div class="pic"></div>
+</div>
+<div class="col-md-3 col-sm-3 col-xs-12">
+<div class="pic"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer2 text-center">
+<div class="container">
+<div class="row">
+<div class="col-md-12 col-sm-12 col-xs-12">
+<div class="copyright2">
+<p> <p>通讯地址：武汉市阳逻经济开发区汉施路18号          武汉工程职业技术学院实训大楼207室       办公电话：027-89629899
+ </p>
+<p>版权所有 © 武汉工程职业技术学院    备案序号：鄂ICP备13001359号    技术维护：图文信息中心      <a href="javascript:;" target="_blank"><img src="skin/sites/school415/core/header/images/gabeian.png">  鄂公网安备 42010702000258 号</a></p>
+
+
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div></body>
+</html>

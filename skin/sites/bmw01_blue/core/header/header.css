@@ -1,0 +1,44 @@
+/*header*/
+.main-nav {border-radius: 0;box-shadow: none;border: none;background-color:#0271c5;margin-bottom:10px;}
+.main-nav .hinner{background:url(images/header.png) right bottom no-repeat;}
+.main-nav .navbar-header .navbar-logo{padding:43px 15px;height:auto;}
+.hlink {color:#fff;text-align:right;padding:7px 10px;min-width:370px;background: url(https://www.wgxy.net/skin/sites/bmw01_blue/core/header/images/topbg.png) left top no-repeat;}
+.hlink span{margin-right:10px;}
+.hlink span a{color:#fff;padding-left:20px;font-size:12px;}
+.hlink a{color:#fff;}
+.hlink .search{background:url(../../../school394/core/header/images/search.png) left center no-repeat;}
+.hlink .homepage{background:url(../../../school394/core/header/images/homepage.png) left center no-repeat;}
+.navbar-main{background-color:#0264ae;}
+.navlist{width:100%;}
+.navlist li{width:12.5%;text-align:center;}
+.navbar-default .navbar-nav>li>a {color: #fff;font-size:16px;background:url(images/navline.png) left center no-repeat;}
+.navlist li a.on1{background: url(images/home.png) 20px center no-repeat;padding-left:40px;}
+.navlist .dropdown-menu,.navlist .dropdown-menu li{min-width:100%;}
+.navlist .dropdown-menu li a{font-size:14px;padding:5px 0;background:none;}
+.dropdown-menu, .dropdown-menu > li > a {-webkit-border-radius: 0px;-moz-border-radius: 0px;-o-border-radius: 0px;-ms-border-radius: 0px;border-radius: 0px;font-weight: normal;}
+.dropdown-menu {padding:0;border:none;-webkit-box-shadow: 0 3px 12px rgba(0,0,0,.05);box-shadow: 0 3px 12px rgba(0,0,0,.05);-webkit-transition: .25s;-o-transition: .25s;transition: .25s;}
+/*footer*/
+.footer{background-color:#0264ae;padding:10px 0 30px;}
+.footnav ,.footnav a{color:#fff;font-size:12px;}
+.footnav li {color:#fff;line-height: 14px;text-align: center;font-size: 14px;border-left: 1px solid #fff;margin:15px 0;padding: 0 16px;display:inline-block;}
+.footnav li.title{border-left:none;}
+.copyright p{color:#fff;font-size:12px;line-height:24px;margin-bottom:0;}
+.copyright p a{color:#fff;}
+.fcode{margin:10px 0;}
+.fcode h4{font-size:14px;color:#fff;}
+@media (max-width: 1000px) and (min-width: 768px){
+	.navlist li{width:auto;text-align:left;}
+}
+@media (max-width: 1000px){
+	
+}
+@media (max-width: 767px){
+	.main-nav .navbar-header .navbar-logo{padding:15px 15px;}
+	.main-nav .navbar-header .navbar-logo img{width:200px;height:auto;}
+	.navlist{background:none;}
+	.navlist li{width:auto;text-align:left;}
+	.navlist li a.on1{background:none;padding:10px 15px;}
+	.footer{background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;}
+	.footnav li {width: 33.3%;border:0;float:left;}
+	.footer .fcode{text-align:center;}
+}

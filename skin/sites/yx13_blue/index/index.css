@@ -1,0 +1,36 @@
+/*棣栭〉涓讳綋鏍峰紡*/
+.box .page-header{margin:20px 0 0;padding-bottom:0;border-bottom: 1px solid #0068b7;height:40px;}
+.box .h4{margin:0;font-weight:400;font-size:16px;color:#004173;font-size:22px;display: inline-block;border-bottom: 3px solid #f39800;line-height:38px;}
+.more span{padding:20px 0 0 21px;background: url(more.png) right bottom no-repeat;}
+.more a{font-size:14px;color:#004173;}
+
+.tbox .ntlist{margin-top: 10px;}
+.ntlist li{background: #3a94c9;height: 56px;padding:0 72px; margin-bottom: 3px;}
+.ntlist li a{font-size: 18px;color:#fff;padding-left: 48px;line-height: 56px;text-decoration: none;}
+.ntlist a span{float: right;background: url(more2.png) right center no-repeat;width: 10px;height: 56px;}
+.ntlist li:hover{background: #c01b22;}
+.ico1{background: url(icon1.png) left center no-repeat;}
+.ico2{background: url(icon2.png) left center no-repeat;}
+.ico3{background: url(icon3.png) left center no-repeat;}
+.ico4{background: url(icon4.png) left center no-repeat;}
+.ico5{background: url(icon5.png) left center no-repeat;}
+
+.box_con{padding-top:1px;}
+.nlist{background: #f7f7f7;margin: 16px 0 10px;padding:0;}
+.nfocus{padding-top: 17px;}
+.tlist{padding-top: 12px;}
+.rbox .tlist{padding-top: 5px;}
+.rl-box .xbox{margin-top:-14px;}
+@media (min-width: 1200px)
+.container {
+    width: 1200px;
+}
+@media screen and (max-width:767px){
+    .tpic,.tlist{margin-bottom:10px;}
+    .tpic img{width:100%;height:auto;}
+    .fbox .ftit{width:20%;}
+    .fbox .fpic{width:80%;}
+}
+@media (max-width: 768px){
+    .ntlist li {padding:0 40px;}
+}
